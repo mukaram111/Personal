@@ -3,22 +3,34 @@ import React from "react";
 import location from "../../assets/images/location.svg";
 import arrow from "../../assets/images/arrow.svg";
 import cardBtnImg from "../../assets/images/cardBtnImg.svg";
-import share from '../../assets/images/share.svg'
+import share from "../../assets/images/share.svg";
 
 import "./Events.css";
+import { useHistory } from "react-router-dom";
 
 const SectionThreeEvents = () => {
+  const history = useHistory();
+
+  const CardDetail = () => {
+    history.push("/EventCardDetail");
+  };
+
   return (
     <>
-      <div className="container" style={{ minHeight: "550px", paddingBottom:'10%'}}>
+      <div
+        className="container"
+        style={{ minHeight: "550px", paddingBottom: "10%" }}
+      >
         <div className="row pt-5">
           <p>MARCH</p>
         </div>
         <div className="row">
           {/* -------------------------------------------------------------------------------- */}
-         
-        
-          <div className="col-md-4 EventSectionThreeMain btnanimated">
+
+          <div
+            className="col-md-4 EventSectionThreeMain btnanimated"
+            onClick={CardDetail}
+          >
             <div className="row h-100">
               <div className="col-md-12 EventSectionThreeImg">
                 <p className="numberCard">+11</p>
@@ -57,7 +69,7 @@ const SectionThreeEvents = () => {
               </div>
             </div>
           </div>
-         
+
           {/* --------------------------------------------------------------------------------------------- */}
           <div className="col-md-4 EventSectionThreeMain btnanimated">
             <div className="row h-100">
@@ -384,7 +396,6 @@ const SectionThreeEvents = () => {
             </div>
           </div>
           {/* --------------------------------------------------------------------------------------------- */}
-
         </div>
       </div>
     </>

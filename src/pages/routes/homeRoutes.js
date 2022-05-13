@@ -1,3 +1,4 @@
+import EventCardDetail from "components/events/EventCardDetail";
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -32,6 +33,7 @@ const HomeRoutes = () => {
           <Route path="/DAOMain" component={DAOMain} />
           <Route path="/BlogMain" component={BlogMain} />
           <Route path="/PrivacyPolicyMain" component={PrivacyPolicyMain} />
+          <Route path="/EventCardDetail" component={EventCardDetail} />
           <Redirect to="/" />
         </Switch>
       </Router>

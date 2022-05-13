@@ -10,15 +10,15 @@ const DocsMain = () => {
   return (
     <>
       <div className="row p-0 m-0">
+        {" "}
         <DocsNavbar />
         <div className="col-md-3">
           <DocSidebar />
         </div>
         <div className="col-md-9">
-          <DocsSectionOne/>
+          <DocsSectionOne />
           <BlogSectionThree />
         </div>
-
         <HomeFooter />
       </div>
     </>
