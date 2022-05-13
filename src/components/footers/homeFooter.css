@@ -1,0 +1,37 @@
+.Home_Footer_Main{
+  height: 100%;
+}
+.Footerlinks {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+
+.footerSelect{
+  background: transparent;
+  font-weight: 500;
+  border: 0;
+  outline: 0;
+  padding-left: 10px;
+}
+.selectImg{
+  height: 20px;
+}
+
+.Footerlinks a {
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+  margin-bottom: 8px;
+  margin-left: 16px;
+}
+.spacingIcons{
+  cursor: pointer;
+  padding-left: 25px;
+  color: rgb(71, 71, 71);
+}
+.spacingIcons:hover{
+  color: rgb(32, 32, 32);
+}

@@ -1,0 +1,152 @@
+/* ---------------Section One----------------- */
+.carsualMain {
+  border-radius: 10px;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.EvevtCarsualPic {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 100%;
+}
+.carousel-control-prev {
+  justify-content: start;
+}
+.carousel-control-prev-icon {
+  background-color: rgb(136, 135, 135);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.carousel-control-next {
+  justify-content: end;
+}
+.carousel-control-next-icon {
+  background-color: rgb(136, 135, 135);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.DateBox {
+  align-items: center;
+  background-color: #f3f2f5;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+
+  width: 70px;
+}
+.carsualTextHead {
+  font-size: 21px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  line-height: 30px;
+  margin: 0;
+  padding-top: 2px;
+}
+.carsualInnerText {
+  font-size: 17px;
+  line-height: 26px;
+  color: #676370;
+}
+.carsualInnerText span {
+  color: #ff2d55;
+}
+.livebtn {
+  background-color: #ff2d55;
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  font-size: 13px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 1.38;
+  padding: 2px 7px;
+}
+.started {
+  padding: 12px 0 0 10px;
+}
+.locationText {
+  padding-left: 10px;
+}
+.locationbtn {
+  background-color: #b3b0b0;
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 2px 7px;
+}
+.spacingbtn {
+  margin-left: 1%;
+}
+/* --------------------Section Two------------------------- */
+.EventSectionTwoMain {
+  height: 100px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  width: 350px;
+  margin-left: 15px;
+}
+
+.EventSectionTwoImg {
+  background-image: url("../../assets/images/sectionCardpic\ \(2\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: end;
+  padding-top: 5px;
+  height: 100%;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.numberCard {
+  background: #fff;
+  border-radius: 10px;
+  box-sizing: content-box;
+  color: #37333d;
+  display: inline-block;
+  font-weight: 600;
+  height: 20px;
+  line-height: 20px;
+  min-width: 20px;
+  padding: 0 0.4em;
+}
+/* ------------------Sectiom three--------------------------------- */
+.EventSectionThreeMain {
+  height: 100%;
+  margin-left: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  width: 350px;
+}
+.EventSectionThreeImg {
+  background-image: url("../../assets/images/sectionCardpic\ \(2\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: end;
+  padding-top: 5px;
+  height: 200px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.cardbtnshare {
+  outline: none;
+  background-color: #fff;
+  border: 1px solid #ff2d55;
+  height: 30px;
+  width: 20%;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 10px 0 10px 5px;
+  border-radius: 5px;
+}

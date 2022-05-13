@@ -1,0 +1,122 @@
+.BuilderListMain {
+  border-bottom: 1px solid rgb(53, 52, 52);
+}
+.builderSectionOnelist {
+  display: flex;
+  list-style-type: none;
+}
+.builderListItem {
+  text-decoration: none;
+  /* padding: 3%; */
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 25px;
+  color: #ff2d55;
+}
+
+.builderListItem:hover {
+  border-bottom: 2px solid #ff2d55;
+  color: #ff2d55;
+}
+
+.bilderResult {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(160, 158, 158);
+}
+
+.builderIconMain {
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(66, 66, 66);
+}
+.uploadicon {
+  color: #ff2d55;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.uploadicon:hover {
+  color: #ff2d55;
+}
+.plusicon {
+  color: #ff2d55;
+  font-size: 22px;
+  text-decoration: none;
+}
+.plusicon:hover {
+  color: #ff2d55;
+}
+.builderContainer {
+  border-radius: 5px;
+  border: 1px solid rgb(66, 66, 66);
+  padding-top: 6%;
+  color: #fff;
+  min-height: 200px;
+}
+
+/* section two css  */
+
+.sectionTwoTextBuilder {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(160, 158, 158);
+}
+.builderViewMore {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ff2d55;
+  text-decoration: none;
+}
+
+.builderViewMore:hover {
+  color: #ff2d55;
+}
+
+.background-card-invoices {
+  background-color: #fff;
+  /* border: 1px solid #a9cd46; */
+  border-radius: 20px;
+  min-height: 200px;
+  /* padding: 10px; */
+  /* min-width: 300px; */
+}
+
+.background-card-invoices1 {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  min-height: 250px;
+}
+
+.background-card-invoices1::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+}
+
+.background-card-invoices1::-webkit-scrollbar {
+  height: 10px;
+  background-color: #a9cd46;
+}
+.background-card-invoices1::-webkit-scrollbar-thumb {
+  background-color: #4e4e4d;
+  border-radius: 10px;
+}
+.cardTextHead {
+  font-size: 20px;
+  padding-left: 10%;
+  font-weight: 600;
+  margin: 0;
+  /* color: #fff; */
+}
+.cardTextSub {
+  font-size: 16px;
+  padding-left: 10%;
+  padding-top: 0;
+  font-weight: 600;
+  margin: 0;
+}

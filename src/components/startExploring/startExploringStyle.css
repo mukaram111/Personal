@@ -1,0 +1,367 @@
+/* -------------------Section One CSS----------------- */
+
+.SEsectionOneMain {
+  background-image: url("../../assets/images/startExploringImgOne.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+.sectionOneTextMain {
+  text-align: center;
+  padding-top: 15%;
+}
+.SEsectioOnepic {
+  width: 212px;
+  height: 40px;
+}
+.SEsectioOnetext {
+  color: #fff;
+  margin-top: 10px;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+/* -------------section one cards------------ */
+
+.SEcardMain {
+  /* background-image: url("../../assets/images/wallet.jpg"); */
+  width: 100%;
+  height: auto;
+  /* position: absolute;
+  border-image: linear-gradient(116.34deg, #ffbc5b, #ff2d55 50.52%, #c640cd);
+  padding: 4px;
+  box-sizing: border-box; */
+  box-shadow: 0 5px 5px rgb(0 0 0 / 40%);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform: scale(0.92, 0.94);
+  border-radius: 26px;
+}
+/* ------------------------------------------------ */
+
+.modalCardText{
+  background-color: #fff;
+  border-radius: 15px;
+  /* display: flex; */
+}
+
+
+
+/* ------------------------------------------------- */
+
+:root {
+  --bg-body: #f4f4f4;
+  --bg-hot: #dd3333;
+  --bg-featured: #ea723d;
+  --p-text-color: #7e8186;
+  --icon-info-color: #808080;
+  --icon-image-color: white;
+  --h2-text-color: #1a1a1a;
+  --price-text-color: #2fa89e;
+  --backgound-imgage: #3b9f93;
+  --border-view-color: #a4d2c3;
+}
+
+/* comman style */
+.cards{
+  border-radius: 26px;
+}
+.overlay,
+.img-overlay img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+/* cards style */
+
+.cards::before {
+  position: absolute;
+  border: 2px solid #dd3333;
+
+  z-index: 5;
+  color: white;
+  background-color: var(--bg-featured);
+  text-transform: capitalize;
+  transform: translateY(-50%);
+  
+}
+
+
+
+.cards::after {
+  position: absolute;
+  z-index: 5;
+  border: 2px solid #dd3333;
+  transform: translateY(-50%);
+}
+
+/* card style */
+
+.sectionOnecard {
+  border-radius: 26px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: white;
+  box-shadow: 0px 0px 7px 3px #dfdfdf;
+}
+.cardImgSectionOne{
+  border-radius: 26px;
+}
+.sectionOnecard:hover {
+  transform: translateY(-7px);
+}
+
+/* img-overlya style */
+
+.img-overlay {
+  width: 100%;
+  height: 100%;
+  padding-top: 65%;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.img-overlay img {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #ddd233;
+  z-index: 1;
+}
+.img-overlay img:hover +div{
+  width: 100%;
+}
+
+.img-overlay img:hover {
+  
+  border: 4px solid #dd3333;
+}
+
+.overlay {
+  /* width: 0; */
+  
+  height: 100%;
+  border-radius: 26px;
+  /* background-color: #f54559; */
+  opacity: 0.8;
+  z-index: 2;
+  transition: all 0.5s ease 0.1s;
+}
+
+.overlay:hover {
+  width: 100%;
+}
+.overlay .walletText{
+  display: none;
+}
+.overlay:hover >.walletText{
+  padding-top: 10%;
+  display: block;
+  font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+}
+.overlay:hover>.walletTextTwo{
+  display: none;
+}
+.overlay>.walletTextStand{
+padding-top: 15%;
+  /* display: block; */
+  /* text-align: center; */
+  font-weight: 600;
+    font-size: 25px;
+    /* text-align: center; */
+    /* width: 300px; */
+}
+.overlay:hover>.walletTextStand{
+  display: none;
+}
+.overlay >.walletTextTwo{
+  padding-top: 60%;
+  display: block;
+  font-weight: 600;
+    font-size: 18px;
+    line-height: 17px;
+    text-align: center;
+    color: #161518;
+}
+.overlay:hover >.cardBtnMain{
+  display: flex;
+  justify-content: center;
+  padding-top: 15%;
+}
+.overlay .cardBtnMain{
+  display: none;
+}
+.walletbtn:focus{
+  background-color: #dd3333;
+  color: #fff;
+}
+
+
+.walletbtn:hover{
+  background-color: #dd3333;
+  color: #fff;
+}
+
+.walletbtn{
+  background-color: #dd3333;
+  color: #fff;
+  border: 0;
+  outline: none;
+  border-radius: 12px;
+  bottom: 30px;
+  transition: opacity .3s ease;
+  width: 280px;
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: none;
+  height: 56px;
+
+
+}
+.overlay:hover > a {
+  /* display: block; */
+  /* text-align: center; */
+  border-color: var(--border-view-color);
+}
+
+.overlay a {
+  display: none;
+  width: 140px;
+  padding: 15px 0;
+  text-transform: capitalize;
+  border: 2px solid transparent;
+  transition: border 10s ease;
+}
+
+/* media screen style */
+
+@media screen and (max-width: 1000px) {
+  .sectionOnecard {
+    grid-column-end: span 6;
+  }
+  /* card-content style */
+}
+
+@media screen and (max-width: 700px) {
+  .cards {
+    grid-template-columns: repeat(12, minmax(auto, 1fr));
+    grid-column-gap: 10px;
+    grid-row-gap: 30px;
+  }
+  .sectionOnecard {
+    grid-column-end: span 12;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cards {
+    grid-template-columns: repeat(12, minmax(auto, 1fr));
+    grid-column-gap: 10px;
+    grid-row-gap: 30px;
+  }
+  .sectionOnecard {
+    grid-column-end: span 12;
+  }
+}
+
+/* =============================================== */
+/* --------------Section Two CSS------------------ */
+.SEsectionTwoMain {
+  background-image: url("../../assets/images/pattern.png");
+  background-position: top;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  height: auto;
+  padding: 5% 0 5% 0;
+}
+.SEsectionTwoHeading {
+  font-size: 32px;
+  font-weight: 700;
+}
+.SEsectionTwoMainText {
+  font-size: 26px;
+  font-weight: 600;
+}
+.MainTextChange {
+  font-weight: 800;
+  color: #ff2d55;
+}
+.SectionTwoInnerText {
+  font-size: 26px;
+  padding-left: 40px;
+  color: #747376;
+}
+.colorChange {
+  color: #ff2d55;
+  font-weight: 500;
+  text-decoration: none;
+}
+/* --------------------------Section Three CSS---------------- */
+
+.SEsectionThreeMain {
+  background: #1c191f;
+  color: #736e7d;
+  padding: 90px 0 50px 0;
+  height: atuo;
+}
+.SEsectionThreebtn {
+  outline: none;
+  color: rgb(155, 153, 153);
+  background-color: hsla(0, 0%, 100%, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 15px;
+  border: 1px solid #dededf;
+  padding: 2px 40px 2px 36px;
+  cursor: pointer;
+  height: 60px;
+  width: 250px;
+}
+.SEsectionThreebtn:hover {
+  background-color: rgba(116, 113, 113, 0.1);
+}
+.sectionThreeIcons {
+  color: rgb(155, 153, 153);
+  cursor: pointer;
+  display: inline-flex;
+  width: 68px;
+  height: 68px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(115, 110, 125, 0.1);
+  border-radius: 68px;
+  margin-right: 26px;
+}
+.sectionThreeIcons:hover {
+  color: #fff;
+}
+.SEsectionThreeText {
+  text-align: right;
+}
+.sectionThreeMainIcons {
+  display: flex;
+  justify-content: end;
+}
+@media only screen and (max-width: 1200px) {
+  .SEsectionThreebtn {
+    width: 100%;
+  }
+  .sectionThreeMainIcons {
+    padding-top: 20px;
+    justify-content: center;
+  }
+  .SEsectionThreeText {
+    text-align: center;
+  }
+}

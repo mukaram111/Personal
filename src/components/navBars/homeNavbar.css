@@ -1,0 +1,179 @@
+.navMain {
+  background-color: transparent;
+  /* z-index: -1; */
+  position: fixed;
+  padding: 10px 60px 0 60px;
+  /* height: 30px; */
+}
+
+.navImg {
+  border-radius: 50%;
+  cursor: pointer;
+  height: 36px;
+  margin-top: 2px;
+  width: 36px;
+}
+.navItems {
+  color: #fff;
+  /* text-shadow: 0 0 0.2em rgb(0 0 0 / 50%); */
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: 400;
+  line-height: 18px;
+  margin-left: 25px;
+  /* padding: 0; */
+  text-transform: uppercase;
+}
+.navItems:hover {
+  color: #fff;
+  font-weight: 600;
+}
+.navItems:focus {
+  color: #fff;
+  font-weight: 600;
+}
+.navbtn {
+  background-color: #ff2d55;
+  color: #ffff;
+  outline: none;
+  height: 35px;
+  border: 0;
+  font-size: 13px;
+  border-radius: 5px;
+  padding: 0 10px 0 10px;
+}
+.SEnavbtn {
+  outline: none;
+  color: #fff;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  padding: 3px 15px;
+  cursor: pointer;
+  border: 0;
+  height: 40px;
+}
+.SEnavbtn:hover {
+  background-color: rgba(116, 113, 113, 0.1);
+}
+.navbtn:hover {
+  color: #ffff;
+  /* margin-bottom: 3%; */
+}
+
+/* .navbar{
+    background-color: transparent;
+} */
+
+.navMain.colorChange {
+  color: #000;
+  background-color: #fff;
+  border-bottom: 1px solid #67637033;
+  border-top: 1px solid #67637033;
+}
+.navItems.itemColorChange {
+  color: #000;
+
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 18px;
+  margin-left: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.navItems.spacing {
+  padding: 0 10px 0 10px;
+}
+.navItems.itemColorChange:hover {
+  font-weight: 700;
+}
+.navItems.itemColorChange:focus {
+  font-weight: 700;
+}
+.navbtn.navbtnChange {
+  outline: none;
+
+  border: 0;
+  font-size: 13px;
+  border-radius: 5px;
+  padding: 0 10px 0 10px;
+  height: 40px;
+  margin-left: 10px;
+}
+.eventNavSignInbtn {
+  border: 0;
+  outline: none;
+  box-shadow: none;
+  font-weight: 500;
+  min-width: auto;
+  padding: 8px;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #ff2d55;
+  background-color: #fff;
+  cursor: pointer;
+}
+.eventNavSignInbtn:hover {
+  color: #ff2d55;
+  background-color: #fff;
+}
+.eventSubmitbtn {
+  height: 34px;
+
+  border: 0;
+  outline: none;
+  box-shadow: none;
+  font-weight: 500;
+  min-width: 160px;
+  color: #fff;
+  background-color: #ff2d55;
+}
+.eventSearch {
+  min-width: 320px;
+  height: 34px;
+  margin-right: 10px;
+}
+.eventSubmitbtn:hover {
+  color: #ff2d55;
+  background-color: #fff;
+  border: 1px solid #ff2d55;
+  border-radius: 0.25rem;
+}
+.navtext{
+  cursor: pointer;
+  font-size: 17px;
+  color: #16141a;
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 18px;
+  margin-left: 25px;
+}
+.navItemstyle{
+  text-decoration: none;
+  color: #000;
+  
+}
+
+.navtext a{
+  color: #16141a;;
+}
+.navtext a:hover{
+  color: #16141a;;
+}
+.navtext:hover,.navBrand:hover{
+  border-bottom: 1px solid #ff2d55;
+  color: #000;
+}
+.navBrand{
+  cursor: pointer;
+  color: #16141a;
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 18px;
+}

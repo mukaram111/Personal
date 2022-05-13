@@ -1,0 +1,33 @@
+.MarketMainHead{
+    background-color: black;
+ 
+}
+
+.MarketMain{
+    background-image: url('../../assets/images/marketplaceSectionOnebg.png');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    min-height: 350px;
+    padding-top: 10%;
+}
+.MarketTitle{
+    font-size: 40px;
+    font-size: 600;
+    color: #fff;
+}
+.MarsectionOneText{
+    font-size: 20px;
+    font-weight: 500;
+}
+.marketbtnOne{
+    color: #fff;
+    background-color:#ff2d55 ;
+    outline: none;
+    font-weight: 600;
+    padding:10px;
+    border-radius: 6px;
+    border: 0;
+}
