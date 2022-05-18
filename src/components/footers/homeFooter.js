@@ -46,10 +46,12 @@ const HomeFooter = () => {
                   <Link to="/TermOfUse" className="">
                     Terms of Use
                   </Link>
-                  <Link to="/TermOfUse" className="">
+                  <Link to="/ContentPolicy" className="">
                     Content Policy
                   </Link>
-                  <Link className="">Code of Ethics</Link>
+                  <Link to="/CodeOfEthics" className="">
+                    Code of Ethics
+                  </Link>
                 </div>
               </div>
             </div>

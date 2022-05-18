@@ -369,6 +369,193 @@ const TermofUse = () => {
               Committee nor the Wearables Curation Committee has any obligation
               with respect to the content.
             </p>
+            <p className="FooterSubHeading">6. Transactions and Feeds</p>
+            <p className="footerText">
+              6.1 If you elect to purchase, trade, or sell a LAND parcel,
+              Avatar, wearable or other non-fungible token ("NFT") with or from
+              other users via the Tools, any financial transaction that you
+              engage in will be conducted solely through the Ethereum network,
+              Layer 2 solutions or other sidechains via Web3 providers. The
+              Foundation will have no insight into or control over these
+              payments or transactions, nor does it have the ability to reverse
+              any transactions. With that in mind, the Foundation will have no
+              liability to you or to any third party for any claims or damages
+              that may arise as a result of any transactions that you engage in
+              via the Tools, or any other transactions that you conduct via the
+              Ethereum network, and other networks, sidechains, Layer 2
+              solutions or Web3 providers.
+            </p>
+            <p className="footerText">
+              6.2 Ethereum requires the payment of a transaction fee (a "Gas
+              Fee") for every transaction that occurs on the Ethereum network.
+              The Gas Fee funds the network of computers that run the
+              decentralized Ethereum network. This means that you will need to
+              pay a Gas Fee for each transaction that occurs via the Tools. You
+              accept that the payment of the Gas Fee is inherent to the nature
+              of the Ethereum network and alien to the Foundation or due to the
+              use of the Tools.
+            </p>
+            <p className="footerText">
+              6.3 As per a DAO’s decision, transactions taking place in the
+              Marketplace will be subject to a 2.5% MANA cost (the "Marketplace
+              Transaction Cost") calculated over the amount of MANA involved in
+              such transactions. Such MANA cost will be borne by the
+              participants to the transaction. All MANA spent under the
+              Marketplace Transaction Cost will be transferred to the treasury
+              of the DAO. Please be aware that transactions in third-party NFT
+              marketplaces (inside or outside Decentraland) may be subject to
+              the fees charged by said third-party marketplaces as per the
+              respective terms and conditions. The Foundation and/or the DAO
+              shall have no liability whatsoever with regards to transactions
+              conducted in third-party marketplaces.
+            </p>
+            <p className="footerText">
+              6.4 You will be solely responsible to pay any and all sales, use,
+              value-added and other taxes, duties, and assessments (except taxes
+              that may apply on our net income) now or hereafter claimed or
+              imposed by any governmental authority (collectively, "Taxes")
+              associated with your use of the Tools (including, without
+              limitation, any Taxes that may become payable as the result of
+              your ownership, or transfer of any NFT and any activity conducted
+              by you in Decentraland). Except for income taxes levied on the
+              Foundation, you: (i) will pay or reimburse the Foundation for all
+              national, federal, state, local or other taxes and assessments of
+              any jurisdiction, including value added taxes and taxes as
+              required by international tax treaties, customs or other import or
+              export taxes, and amounts levied in lieu thereof based on charges
+              set, services performed or payments made hereunder, as are now or
+              hereafter may be imposed under the authority of any national,
+              state, local or any other taxing jurisdiction; and (ii) shall not
+              be entitled to deduct the amount of any such taxes, duties or
+              assessments from payments made to the Foundation pursuant to these
+              Terms.
+            </p>
+            <p className="FooterSubHeading">7. Changes</p>
+            <p className="footerText">
+              The DAO may approve changes to the Terms from time to time. When
+              the DAO approves changes, the Foundation will make available the
+              updated Terms through the Site and update the "Last Updated" date
+              at the beginning of these Terms accordingly. Please check these
+              Terms periodically for changes. Any changes to the Terms will
+              apply on the date that they are made, and your continued access to
+              or use of the Tools or the Site after the Terms have been updated
+              will constitute your binding acceptance of the updates. If you do
+              not agree to any revised Terms, you must not access or use the
+              Tools or the Site.
+            </p>
+            <p className="FooterSubHeading">8. Children</p>
+            <p className="footerText">
+              You affirm that you are over the age of 13, as the Tools are not
+              intended for children under 13. IF YOU ARE 13 OR OLDER BUT UNDER
+              THE AGE OF 18, OR THE LEGAL AGE OF MAJORITY WHERE YOU RESIDE IF
+              THAT JURISDICTION HAS AN OLDER AGE OF MAJORITY, THEN YOU AGREE TO
+              REVIEW THESE TERMS WITH YOUR PARENT OR GUARDIAN TO MAKE SURE THAT
+              BOTH YOU AND YOUR PARENT OR GUARDIAN UNDERSTAND AND AGREE TO THESE
+              TERMS. YOU AGREE TO HAVE YOUR PARENT OR GUARDIAN REVIEW AND ACCEPT
+              THESE TERMS ON YOUR BEHALF. IF YOU ARE A PARENT OR GUARDIAN
+              AGREEING TO THE TERMS FOR THE BENEFIT OF A CHILD OVER 13, THEN YOU
+              AGREE TO AND ACCEPT FULL RESPONSIBILITY FOR THAT CHILD'S USE OF
+              THE TOOLS OR THE SITE, INCLUDING ALL FINANCIAL CHARGES AND LEGAL
+              LIABILITY THAT HE OR SHE MAY INCUR.
+            </p>
+            <p className="footerText">
+              TO ACCESS CERTAIN CONTENTS, YOU WILL NEED TO HAVE A MINIMUM AGE AS
+              DETAILED IN THE CONTENT POLICY.
+            </p>
+            <p className="footerText">
+              IN ALL CASES INVOLVING ONLINE GAMBLING YOU MUST BE OLDER THAN 18
+              YEARS (OR THE MINIMUM LEGAL AGE IN YOUR PLACE OF RESIDENCE).
+            </p>
+            <p className="FooterSubHeading">9. Indemnity</p>
+            <p className="footerText">
+              You shall release and indemnify, defend and hold harmless the
+              Foundation, the DAO, and its officers, directors, employees and
+              representatives from and against any and all losses, liabilities,
+              expenses, damages, costs (including attorneys' fees and court
+              costs) claims or actions of any kind whatsoever arising or
+              resulting from your use of the Tools or the Site, your violation
+              of these Terms of Use, and any of your acts or omissions. The
+              Foundation reserves the right, at its own expense, to assume
+              exclusive defense and control of any matter otherwise subject to
+              indemnification by you and, in such case, you agree to cooperate
+              with the Foundation in the defense of such matter.
+            </p>
+            <p className="FooterSubHeading">10. Disclaimers</p>
+            <p className="footerText">
+              10.1 YOU ACKNOWLEDGE AND AGREE THAT YOU ASSUME FULL RESPONSIBILITY
+              FOR YOUR USE OF THE SITE AND TOOLS. YOU ACKNOWLEDGE AND AGREE THAT
+              ANY INFORMATION YOU SEND OR RECEIVE DURING YOUR USE OF THE SITE
+              AND TOOLS MAY NOT BE SECURE AND MAY BE INTERCEPTED OR LATER
+              ACQUIRED BY UNAUTHORIZED PARTIES. YOU ACKNOWLEDGE AND AGREE THAT
+              YOUR USE OF THE SITE AND TOOLS IS AT YOUR OWN RISK. YOU
+              ACKNOWLEDGE AND AGREE THAT THE TOOLS ARE PROVIDED "AS IS" AND "AS
+              AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS OR
+              IMPLIED. RECOGNIZING SUCH, YOU ACKNOWLEDGE AND AGREE THAT, TO THE
+              FULLEST EXTENT PERMITTED BY APPLICABLE LAW, NEITHER THE
+              FOUNDATION, ITS DIRECTORS, OFFICERS AND EMPLOYEES, THE DAO, NOR
+              ITS SUPPLIERS OR LICENSORS WILL BE LIABLE TO YOU FOR ANY DIRECT,
+              INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, PUNITIVE, EXEMPLARY
+              OR OTHER DAMAGES OF ANY KIND, INCLUDING WITHOUT LIMITATION DAMAGES
+              FOR LOSS OF PROFITS, GOODWILL, USE, DATA OR OTHER TANGIBLE OR
+              INTANGIBLE LOSSES OR ANY OTHER DAMAGES BASED ON CONTRACT, TORT,
+              STRICT LIABILITY, INFRINGEMENT OF INTELLECTUAL PROPERTY OR THEFT
+              OR MISAPPROPRIATION OF PROPERTY OR ANY OTHER THEORY (EVEN IF THE
+              FOUNDATION HAD BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES),
+              RESULTING FROM THE SITE OR TOOLS; THE USE OR THE INABILITY TO USE
+              THE SITE OR TOOLS; UNAUTHORIZED ACCESS TO OR ALTERATION OF YOUR
+              TRANSMISSIONS OR DATA; STATEMENTS, CONTENT OR CONDUCT OF ANY THIRD
+              PARTY ON THE SITE OR TOOLS; ANY ACTIONS THE FOUNDATION TAKES OR
+              FAILS TO TAKE AS A RESULT OF COMMUNICATIONS YOU SEND; HUMAN
+              ERRORS; TECHNICAL MALFUNCTIONS; FAILURES, INCLUDING PUBLIC UTILITY
+              OR TELEPHONE OUTAGES; OMISSIONS, INTERRUPTIONS, LATENCY, DELETIONS
+              OR DEFECTS OF ANY DEVICE OR NETWORK, PROVIDERS, OR SOFTWARE
+              (INCLUDING, BUT NOT LIMITED TO, THOSE THAT DO NOT PERMIT
+              PARTICIPATION IN THE TOOLS); ANY INJURY OR DAMAGE TO COMPUTER
+              EQUIPMENT; INABILITY TO FULLY ACCESS THE SITE OR TOOLS OR ANY
+              OTHER WEBSITE; THEFT, TAMPERING, DESTRUCTION, OR UNAUTHORIZED
+              ACCESS TO, IMAGES OR OTHER CONTENT OF ANY KIND; DATA THAT IS
+              PROCESSED LATE OR INCORRECTLY OR IS INCOMPLETE OR LOST;
+              TYPOGRAPHICAL, PRINTING OR OTHER ERRORS, OR ANY COMBINATION
+              THEREOF; OR ANY OTHER MATTER RELATING TO THE SITE OR TOOLS. SOME
+              JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES OR
+              THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR
+              CONSEQUENTIAL DAMAGES. ACCORDINGLY, SOME OF THE ABOVE LIMITATIONS
+              MAY NOT APPLY TO YOU. 10.2 THE FOUNDATION HEREBY EXPRESSLY
+              DISCLAIMS, WAIVES, RELEASES AND RENOUNCES ALL WARRANTIES, EXPRESS
+              OR IMPLIED, INCLUDING, WITHOUT LIMITATION, ANY WARRANTY OF
+              MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, OR NON
+              INFRINGEMENT. 10.3 WITHOUT LIMITING THE GENERALITY OF THE
+              FOREGOING, THE FOUNDATION, ITS DIRECTORS, OFFICERS, EMPLOYEES AND
+              LICENSORS DO NOT REPRESENT OR WARRANT TO YOU THAT: (I) YOUR ACCESS
+              TO OR USE OF THE TOOLS WILL MEET YOUR REQUIREMENTS, (II) YOUR
+              ACCESS TO OR USE OF THE TOOLS WILL BE UNINTERRUPTED, TIMELY,
+              SECURE OR FREE FROM ERROR, (III) USAGE DATA PROVIDED THROUGH THE
+              TOOLS WILL BE ACCURATE, (III) THE TOOLS OR ANY CONTENT, SERVICES,
+              OR FEATURES MADE AVAILABLE ON OR THROUGH THE TOOLS ARE FREE OF
+              VIRUSES OR OTHER HARMFUL COMPONENTS, OR (IV) THAT ANY DATA THAT
+              YOU DISCLOSE WHEN YOU USE THE TOOLS WILL BE SECURE.
+            </p>
+            <p className="footerText">
+              10.4 YOU ACCEPT THE INHERENT SECURITY RISKS OF PROVIDING
+              INFORMATION AND DEALING ONLINE OVER THE INTERNET, AND AGREE THAT
+              THE FOUNDATION, ITS DIRECTORS, OFFICERS AND EMPLOYEES AND THE DAO
+              HAVE NO LIABILITY OR RESPONSIBILITY FOR ANY BREACH OF SECURITY
+              UNLESS IT IS DUE TO ITS GROSS NEGLIGENCE.
+            </p>
+            <p className="footerText">
+              10.5 THE FOUNDATION, ITS DIRECTORS, OFFICERS AND EMPLOYEES AND THE
+              DAO WILL NOT BE RESPONSIBLE OR LIABLE TO YOU FOR ANY LOSSES YOU
+              INCUR AS THE RESULT OF YOUR USE OF THE ETHEREUM NETWORK OR THE
+              METAMASK OR ANY OTHER ELECTRONIC WALLET, INCLUDING BUT NOT LIMITED
+              TO ANY LOSSES, DAMAGES OR CLAIMS ARISING FROM: (A) USER ERROR,
+              SUCH AS FORGOTTEN PASSWORDS OR INCORRECTLY CONSTRUED SMART
+              CONTRACTS OR OTHER TRANSACTIONS; (B) SERVER FAILURE OR DATA LOSS;
+              (C) CORRUPTED WALLET FILES; (D) INTELLECTUAL PROPERTY INFRINGEMENT
+              BY THE USERS; (E) UNAUTHORIZED ACCESS OR ACTIVITIES BY THIRD
+              PARTIES, INCLUDING BUT NOT LIMITED TO THE USE OF VIRUSES,
+              PHISHING, BRUTEFORCING OR OTHER MEANS OF ATTACK AGAINST THE TOOLS,
+              ETHEREUM NETWORK, OR THE METAMASK OR OTHER ELECTRONIC WALLET.
+            </p>
           </div>
         </div>
       </div>

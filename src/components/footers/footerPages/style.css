@@ -1,47 +1,55 @@
 /* ---------------------MainFooterPages---------------------------- */
-.liststyle li{
-list-style: none;
-padding-top: 25px;
-text-align: center;
+.liststyle li {
+  list-style: none;
+  padding-top: 25px;
+  /* text-align: center; */
 }
-.footerPageText{
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 20px;
-    color: black;
+.footerPageText {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
 }
-.footerPageText:hover{
-color: #f05;
+.footerPageText:hover {
+  color: #f05;
 }
 /* ------------------------------------------------------------------------------------- */
 
-.FooterMainHeading{
-    font-size: 34px;
-    line-height: 42px;
-    letter-spacing: .4px;
-    font-weight: 500;
+.FooterMainHeading {
+  font-size: 34px;
+  line-height: 42px;
+  letter-spacing: 0.4px;
+  font-weight: 500;
 }
-.FooterSubHeading{
-    font-size: 20px;
-    line-height: 28px;
-    letter-spacing: .3px;
-    font-weight: 500;
+.FooterSubHeading {
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.3px;
+  font-weight: 500;
 }
-.footerText{
-    font-size: 16px;
-    line-height: 30px;
-    text-align: justify;
+.footerText {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: justify;
 }
-.footerTextLinks{
-    color: #f05;
-    font-weight: 600;
-    text-decoration: none;
+.footerTextLinks {
+  color: #f05;
+  font-weight: 600;
+  text-decoration: none;
 }
-.footerTextLinks:hover{
-    color: #f05;
+.footerTextLinks:hover {
+  color: #f05;
 }
-.FooterTextSubHeading{
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: 700;
+.FooterTextSubHeading {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+}
+.EthicsLink {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.EthicsLink:hover {
+  color: #f05;
 }

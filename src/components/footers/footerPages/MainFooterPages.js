@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import { FaListUl } from "react-icons/fa";
+
 import "./style.css";
 
 const MainFooterPages = () => {
@@ -9,16 +11,28 @@ const MainFooterPages = () => {
       <div className="col">
         <ul className="liststyle">
           <li>
-            <Link className="footerPageText">Privacy Policy</Link>
+            <Link to="/PrivacyPolicy" className="footerPageText">
+              <FaListUl />
+              &nbsp; Privacy Policy
+            </Link>
           </li>
           <li>
-            <Link className="footerPageText">Term Of Use</Link>
+            <Link to="/TermOfUse" className="footerPageText">
+              <FaListUl />
+              &nbsp; Term Of Use
+            </Link>
           </li>
           <li>
-            <Link className="footerPageText">Content Policy</Link>
+            <Link to="/ContentPolicy" className="footerPageText">
+              <FaListUl />
+              &nbsp; Content Policy
+            </Link>
           </li>
           <li>
-            <Link className="footerPageText">Code Of Ethics</Link>
+            <Link to="/CodeOfEthics" className="footerPageText">
+              <FaListUl />
+              &nbsp; Code Of Ethics
+            </Link>
           </li>
         </ul>
       </div>
