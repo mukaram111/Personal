@@ -1,11 +1,11 @@
 import React from "react";
 
-import { Dropdown } from "react-bootstrap";
+// import { Dropdown } from "react-bootstrap";
 import { FaDiscord, FaRedditAlien, FaTwitter } from "react-icons/fa";
-import { FiGithub } from "react-icons/fi";
+// import { FiGithub } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import FooterListIcon from "../../assets/images/FooterListIcon.png";
-import GitIcon from "../../assets/images/githubicon.svg"
+import GitIcon from "../../assets/images/githubicon.svg";
 
 import "./homeFooter.css";
 
@@ -22,7 +22,11 @@ const HomeFooter = () => {
                   <div>
                     <label>
                       {" "}
-                      <img src={FooterListIcon} className="selectImg " alt="..." />
+                      <img
+                        src={FooterListIcon}
+                        className="selectImg "
+                        alt="..."
+                      />
                     </label>
                     <select className=" footerSelect">
                       <option value="English">English </option>
@@ -33,10 +37,18 @@ const HomeFooter = () => {
                     </select>
                   </div>
 
-                  <Link className="">Home</Link>
-                  <Link to='/PrivacyPolicyMain' className="">Privacy Policy</Link>
-                  <Link className="">Terms of Use</Link>
-                  <Link className="">Terms of Use</Link>
+                  <Link to="/" className="">
+                    Home
+                  </Link>
+                  <Link to="/PrivacyPolicy" className="">
+                    Privacy Policy
+                  </Link>
+                  <Link to="/TermOfUse" className="">
+                    Terms of Use
+                  </Link>
+                  <Link to="/TermOfUse" className="">
+                    Content Policy
+                  </Link>
                   <Link className="">Code of Ethics</Link>
                 </div>
               </div>
@@ -50,7 +62,7 @@ const HomeFooter = () => {
                   <FaRedditAlien className="" />
                 </Link>
                 <Link className="spacingIcons">
-                  <img src={GitIcon} alt="..." style={{}}/>
+                  <img src={GitIcon} alt="..." style={{}} />
                 </Link>
                 <Link className="spacingIcons">
                   <FaTwitter />

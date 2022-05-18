@@ -1,4 +1,3 @@
-import EventCardDetail from "components/events/EventCardDetail";
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -6,16 +5,22 @@ import {
   Route,
   Redirect,
 } from "react-router-dom";
-import BlogMain from "../../components/blog/BlogMain";
-import BuilderMain from "../../components/builder/BuilderMain";
-import DAOMain from "../../components/dao/DAOMain";
-import EventMain from "../../components/events/EventMain";
-import MarketPlaceMain from "../../components/marketplace/MarketPlaceMain";
-import PrivacyPolicyMain from "../../components/PrivacyPolicy/PrivacyPolicyMain";
-import SectionOneModal from "../../components/startExploring/SectionOneModal";
+
+import EventCardDetail from "components/events/EventCardDetail";
+import MainFooterPages from "components/footers/footerPages/MainFooterPages";
+import BlogMain from "components/blog/BlogMain";
+import BuilderMain from "components/builder/BuilderMain";
+import DAOMain from "components/dao/DAOMain";
+import EventMain from "components/events/EventMain";
+import MarketPlaceMain from "components/marketplace/MarketPlaceMain";
+import SectionOneModal from "components/startExploring/SectionOneModal";
 import DOCS from "../docs/DOCS";
 import Home from "../home/home";
 import StartExploring from "../startExploring/startExploring";
+import PrivacyPolicy from "components/footers/footerPages/PrivacyPolicy";
+import ContentPolicy from "components/footers/footerPages/ContentPolicy";
+import TermofUse from "components/footers/footerPages/TermofUse";
+import CodeOfEthics from "components/footers/footerPages/CodeOfEthics";
 
 const HomeRoutes = () => {
   return (
@@ -32,8 +37,15 @@ const HomeRoutes = () => {
           <Route path="/EventMain" component={EventMain} />
           <Route path="/DAOMain" component={DAOMain} />
           <Route path="/BlogMain" component={BlogMain} />
-          <Route path="/PrivacyPolicyMain" component={PrivacyPolicyMain} />
           <Route path="/EventCardDetail" component={EventCardDetail} />
+
+          {/* -------------------------Footer Routes------------------- */}
+
+          <Route path="/MainFooterPages" component={MainFooterPages} />
+          <Route path="/PrivacyPolicy" component={PrivacyPolicy} />
+          <Route path="/ContentPolicy" component={ContentPolicy} />
+          <Route path="/TermOfUse" component={TermofUse} />
+          <Route path="/CodeOfEthics" component={CodeOfEthics} />
           <Redirect to="/" />
         </Switch>
       </Router>
