@@ -23,6 +23,12 @@ const MainFooterPages = () => {
             </Link>
           </li>
           <li>
+            <Link to="/LogoAndName" className="footerPageText">
+              <FaListUl />
+              &nbsp; Logo And Name
+            </Link>
+          </li>
+          <li>
             <Link to="/ContentPolicy" className="footerPageText">
               <FaListUl />
               &nbsp; Content Policy
@@ -32,6 +38,12 @@ const MainFooterPages = () => {
             <Link to="/CodeOfEthics" className="footerPageText">
               <FaListUl />
               &nbsp; Code Of Ethics
+            </Link>
+          </li>
+          <li>
+            <Link to="/Security" className="footerPageText">
+              <FaListUl />
+              &nbsp; Security
             </Link>
           </li>
         </ul>

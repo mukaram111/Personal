@@ -21,6 +21,8 @@ import PrivacyPolicy from "components/footers/footerPages/PrivacyPolicy";
 import ContentPolicy from "components/footers/footerPages/ContentPolicy";
 import TermofUse from "components/footers/footerPages/TermofUse";
 import CodeOfEthics from "components/footers/footerPages/CodeOfEthics";
+import LogoAndName from "components/footers/footerPages/LogoAndName";
+import Security from "components/footers/footerPages/Security";
 
 const HomeRoutes = () => {
   return (
@@ -46,6 +48,8 @@ const HomeRoutes = () => {
           <Route path="/ContentPolicy" component={ContentPolicy} />
           <Route path="/TermOfUse" component={TermofUse} />
           <Route path="/CodeOfEthics" component={CodeOfEthics} />
+          <Route path="/LogoAndName" component={LogoAndName} />
+          <Route path="/Security" component={Security} />
           <Redirect to="/" />
         </Switch>
       </Router>

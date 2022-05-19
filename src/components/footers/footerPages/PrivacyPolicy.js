@@ -1,8 +1,11 @@
-import DocsNavbar from "components/navBars/docsNavbar";
 import React from "react";
 import { Link } from "react-router-dom";
+
+import DocsNavbar from "components/navBars/docsNavbar";
 import HomeFooter from "../homeFooter";
 import MainFooterPages from "./MainFooterPages";
+
+import "./style.css";
 
 const PrivacyPolicy = () => {
   return (
