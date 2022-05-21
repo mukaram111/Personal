@@ -23,6 +23,7 @@ import TermofUse from "components/footers/footerPages/TermofUse";
 import CodeOfEthics from "components/footers/footerPages/CodeOfEthics";
 import LogoAndName from "components/footers/footerPages/LogoAndName";
 import Security from "components/footers/footerPages/Security";
+import BrowsingMain from "components/marketplace/startBrowsing/BrowsingMain";
 
 const HomeRoutes = () => {
   return (
@@ -50,6 +51,9 @@ const HomeRoutes = () => {
           <Route path="/CodeOfEthics" component={CodeOfEthics} />
           <Route path="/LogoAndName" component={LogoAndName} />
           <Route path="/Security" component={Security} />
+          {/* -------------------------MarketPlace--------------------------- */}
+          <Route path="/BrowsingMain" component={BrowsingMain} />
+
           <Redirect to="/" />
         </Switch>
       </Router>

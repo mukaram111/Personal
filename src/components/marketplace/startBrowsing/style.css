@@ -1,0 +1,54 @@
+.browsingHeader {
+  padding-top: 100px;
+  list-style: none;
+  display: flex;
+}
+.borderBottom {
+  border-bottom: 1px solid gray;
+}
+
+.B_HeaderItems {
+  padding-left: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  color: #fff;
+  font-weight: 600;
+}
+.B_HeaderItems:hover {
+  color: #f05;
+}
+.listingBox {
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 12px 10px;
+}
+.storeBox {
+  background-color: gray;
+  border-radius: 5px;
+  padding: 0px 5px;
+  cursor: pointer;
+}
+.storeText {
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+.storeSubText {
+  color: rgb(59, 59, 59);
+  font-weight: 500;
+}
+.BrowserLink {
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px 65% 10px 5px;
+  border-radius: 5px;
+}
+.BrowserLink:hover {
+  background-color: rgb(72, 72, 72);
+  border-radius: 5px;
+  color: #fff;
+}
