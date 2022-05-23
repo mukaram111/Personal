@@ -17,7 +17,11 @@ const HomeSectionSeven = () => {
               <div className="pt-4">
                 <a href="#" className="moreArticle">
                   more articles
-                  <img src={greaterSign} alt="greater sign" className="pl-2" />
+                  <img
+                    src={greaterSign}
+                    alt="greater sign"
+                    className="pl-2 greaterSign"
+                  />
                 </a>
               </div>
             </div>
@@ -55,12 +59,12 @@ const HomeSectionSeven = () => {
                     <span>ANNOUNCEMENT DAO GOVERNANCE-SQUAD</span>
                   </p>
                   <p className="homeCardTextTwo">
-                  Introducing the Transparency OS
+                    Introducing the Transparency OS
                   </p>
                 </div>
               </div>
               <div className="col-md-4 col-12  animated">
-                <div> 
+                <div>
                   <img
                     className="img-fluid HomecardImg"
                     src={cardpic1}
@@ -73,7 +77,7 @@ const HomeSectionSeven = () => {
                     <span>ANNOUNCEMENT DAO DAO-COMMITTEE-REPORT</span>
                   </p>
                   <p className="homeCardTextTwo">
-                  Guest Post: DAO Committee Report #0016
+                    Guest Post: DAO Committee Report #0016
                   </p>
                 </div>
               </div>

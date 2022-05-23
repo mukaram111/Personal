@@ -55,7 +55,7 @@ const HomeFooter = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 d-flex justify-content-end">
+            <div className="col-md-4 d-flex  footerIconSet">
               <div className="FooterIcons  s">
                 <Link className="spacingIcons">
                   <FaDiscord className="" />

@@ -75,6 +75,7 @@
   background-color: #fff;
   border-bottom: 1px solid #67637033;
   border-top: 1px solid #67637033;
+  z-index: 1;
 }
 .navItems.itemColorChange {
   color: #000;
@@ -145,7 +146,7 @@
   border: 1px solid #ff2d55;
   border-radius: 0.25rem;
 }
-.navtext{
+.navtext {
   cursor: pointer;
   font-size: 17px;
   color: #16141a;
@@ -154,23 +155,23 @@
   line-height: 18px;
   margin-left: 25px;
 }
-.navItemstyle{
+.navItemstyle {
   text-decoration: none;
   color: #000;
-  
 }
 
-.navtext a{
-  color: #16141a;;
+.navtext a {
+  color: #16141a;
 }
-.navtext a:hover{
-  color: #16141a;;
+.navtext a:hover {
+  color: #16141a;
 }
-.navtext:hover,.navBrand:hover{
+.navtext:hover,
+.navBrand:hover {
   border-bottom: 1px solid #ff2d55;
   color: #000;
 }
-.navBrand{
+.navBrand {
   cursor: pointer;
   color: #16141a;
   text-decoration: none;

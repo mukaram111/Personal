@@ -16,7 +16,7 @@ const HomeSectionFive = () => {
     <>
       <div className="SectionFiveMain">
         <div className="container">
-          <div className="row pt-5" style={{ padding: "40px 75px 0 75px" }}>
+          <div className="row pt-5" style={{ padding: "40px 25px 0 25px" }}>
             <div className="col-md-12">
               <p className="SectionFiveHeading">Can't decide where to start?</p>
             </div>
@@ -43,9 +43,8 @@ const HomeSectionFive = () => {
           className="row m-0 pt-5 pb-5 justify-content-between"
           style={{ padding: "75px" }}
         >
-          
-<div className="container">
-          <SectionFiveCarsual />
+          <div className="container">
+            <SectionFiveCarsual />
           </div>
         </div>
       </div>
