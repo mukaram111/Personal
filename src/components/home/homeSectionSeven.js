@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import greaterSign from "../../assets/images/download (1).svg";
 import cardpic1 from "../../assets/images/governance.png";
 import cardpic2 from "../../assets/images/transparency-os.jpg";
@@ -15,14 +16,14 @@ const HomeSectionSeven = () => {
                 <p className="sectionEightHeading">From the blog</p>
               </div>
               <div className="pt-4">
-                <a href="#" className="moreArticle">
+                <Link to="/BlogMain" className="moreArticle">
                   more articles
                   <img
                     src={greaterSign}
                     alt="greater sign"
                     className="pl-2 greaterSign"
                   />
-                </a>
+                </Link>
               </div>
             </div>
             {/* -----Cards------- */}

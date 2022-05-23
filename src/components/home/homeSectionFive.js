@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 import cardImg1 from "../../assets/images/cardImg1.png";
 import cardBtnImg from "../../assets/images/cardBtnImg.svg";
@@ -31,10 +32,10 @@ const HomeSectionFive = () => {
               </div>
               <div>
                 {" "}
-                <a href="#" className="moreArticle">
+                <Link to="/EventMain" className="moreArticle">
                   more events
                   <img src={greaterSign} alt="greater sign" className="pl-2" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

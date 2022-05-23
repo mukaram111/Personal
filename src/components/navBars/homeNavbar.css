@@ -77,6 +77,13 @@
   border-top: 1px solid #67637033;
   z-index: 1;
 }
+.dropdownIcon {
+  color: #fff;
+  font-size: 55px;
+}
+.dropdownIcon.colorChange {
+  color: #000;
+}
 .navItems.itemColorChange {
   color: #000;
 

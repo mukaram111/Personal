@@ -37,7 +37,11 @@ const HomeNavbar = () => {
                 >
                   <span className="">
                     <RiArrowDropDownLine
-                      style={{ fontSize: "55px", color: "white" }}
+                      className={
+                        colorChange
+                          ? "dropdownIcon colorChange"
+                          : "dropdownIcon"
+                      }
                     />
                   </span>
                 </button>
