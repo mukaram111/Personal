@@ -1,7 +1,17 @@
 import React, { useState } from "react";
+import {
+  Nav,
+  Form,
+  Navbar,
+  Container,
+  NavDropdown,
+  FormControl,
+  Button,
+} from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 import { RiArrowDropDownLine } from "react-icons/ri";
-import { Link } from "react-router-dom";
+
 import NavImage from "../../assets/images/download.svg";
 
 import "./homeNavbar.css";
@@ -18,6 +28,93 @@ const HomeNavbar = () => {
   window.addEventListener("scroll", changeNavbarColor);
   return (
     <>
+      {/* <Navbar bg="" expand="lg">
+        <Container>
+          <Navbar.Brand>
+            <Link to="/">
+              <img className="navImg" src={NavImage} alt="NavBar Imag" />
+            </Link>
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="navbarScroll" />
+          <Navbar.Collapse id="navbarScroll">
+            <Nav
+              className="me-auto my-2 my-lg-0"
+              // style={{ maxHeight: '100px' }}
+              // navbarScroll
+            >
+              <Nav.Link className="navItems">
+                {" "}
+                <Link
+                  className={
+                    colorChange
+                      ? "navItems itemColorChange"
+                      : " nav-link active navItems"
+                  }
+                  aria-current="page"
+                  to="/MarketPlaceMain"
+                >
+                  Marketplace
+                </Link>
+              </Nav.Link>
+              <Nav.Link className="navItems">
+                <Link to="/BuilderMain" className="navItemstyle">
+                  {" "}
+                  Builder
+                </Link>
+              </Nav.Link>
+              <Nav.Link className="navItems">
+                <Link to="/DOCS" className="navItemstyle">
+                  {" "}
+                  <strong> Docs</strong>
+                </Link>
+              </Nav.Link>
+              <Nav.Link className="navItems">
+                <Link to="/EventMain" className="navItemstyle">
+                  {" "}
+                  Events
+                </Link>
+              </Nav.Link>
+              <Nav.Link className="navItems">
+                {" "}
+                <Link to="/DAOMain" className="navItemstyle">
+                  {" "}
+                  DAO
+                </Link>
+              </Nav.Link>
+              <Nav.Link to="" className="navItems">
+                <Link to="/BlogMain" className="navItemstyle">
+                  {" "}
+                  Blog
+                </Link>
+              </Nav.Link>
+            </Nav>
+            <Form className="d-flex">
+              <span className="nav-item ">
+                <Link
+                  className={
+                    colorChange
+                      ? "navItems itemColorChange spacing "
+                      : " nav-link active navItems"
+                  }
+                  to=""
+                >
+                  {" "}
+                  Join Our Discord
+                </Link>
+              </span>
+              <Link to="/startExploring">
+                <button
+                  className={colorChange ? "navbtn navbtnChange" : "navbtn"}
+                  type=""
+                >
+                  START EXPLORING
+                </button>
+              </Link>
+            </Form>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar> */}
+
       <div className="container-fluid">
         <div className="row">
           <div className={colorChange ? "navMain colorChange" : "navMain"}>

@@ -5,7 +5,7 @@ import MarketplaceSectionOne from "./marketplaceSectionOne";
 
 import "./marketplace.css";
 import MarketPlaceSecTwo from "./MarketPlaceSecTwo";
-import MarketPlaceSecThree from "./MarketPlaceSecThree";
+// import MarketPlaceSecThree from "./MarketPlaceSecThree";
 import HomeFooter from "components/footers/homeFooter";
 
 const MarketPlaceMain = () => {
@@ -18,19 +18,17 @@ const MarketPlaceMain = () => {
             <BuilderNavbar />
           </div>
           <div className="container">
-          <MarketplaceSectionOne />
-          <MarketPlaceSecTwo />
-          {/* <MarketPlaceSecThree/> */}
-          {/* <HomeFooter/> */}
-          
+            <MarketplaceSectionOne />
+            <MarketPlaceSecTwo />
+            {/* <MarketPlaceSecThree/> */}
+            {/* <HomeFooter/> */}
           </div>
         </div>
       </div>
       <p></p>
       <p></p>
       {/* <h1 className="marketplaceMain">Marketplace is Coming Soon...</h1> */}
-      <HomeFooter className='pt-3' />
-        
+      <HomeFooter className="pt-3" />
     </>
   );
 };
