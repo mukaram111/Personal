@@ -329,6 +329,10 @@
   .footerIconSet {
     justify-content: center;
   }
+  .sectionOneMainHeading {
+    padding-top: 50%;
+    /* text-align: center; */
+  }
 }
 @media (max-width: 480px) {
   .greaterSign {

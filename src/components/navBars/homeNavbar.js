@@ -1,13 +1,5 @@
 import React, { useState } from "react";
-import {
-  Nav,
-  Form,
-  Navbar,
-  Container,
-  NavDropdown,
-  FormControl,
-  Button,
-} from "react-bootstrap";
+import { Nav, Form, Navbar, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 import { RiArrowDropDownLine } from "react-icons/ri";
@@ -19,13 +11,18 @@ import "./homeNavbar.css";
 const HomeNavbar = () => {
   const [colorChange, setColorchange] = useState(false);
   const changeNavbarColor = () => {
-    if (window.scrollY >= 50) {
+    if (window.scrollY >= 2) {
       setColorchange(true);
     } else {
       setColorchange(false);
     }
   };
   window.addEventListener("scroll", changeNavbarColor);
+
+  const bgColor = () => {
+    // document.getElementById("foo").setAttribute("className", "navBgColor");
+  };
+
   return (
     <>
       <Navbar
@@ -39,7 +36,19 @@ const HomeNavbar = () => {
               <img className="navImg" src={NavImage} alt="NavBar Imag" />
             </Link>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarScroll" />
+          <Navbar.Toggle
+            id="colorChange"
+            onClick={bgColor}
+            aria-controls="navbarScroll"
+            className="toggleBtn p-0"
+          >
+            {" "}
+            <RiArrowDropDownLine
+              className={
+                colorChange ? "dropdownIcon colorChange" : "dropdownIcon"
+              }
+            />
+          </Navbar.Toggle>
           <Navbar.Collapse id="navbarScroll">
             <Nav
               className="me-auto my-2 my-lg-0"
