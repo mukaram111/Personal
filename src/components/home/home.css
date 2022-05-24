@@ -330,7 +330,7 @@
     justify-content: center;
   }
   .sectionOneMainHeading {
-    padding-top: 50%;
+    padding-top: 40%;
     /* text-align: center; */
   }
 }
@@ -345,7 +345,7 @@
 }
 @media (max-width: 990px) {
   .sectionOneMainHeading {
-    padding-top: 50%;
+    padding-top: 40%;
     /* text-align: center; */
   }
 }

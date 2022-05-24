@@ -11,7 +11,7 @@ import "./homeNavbar.css";
 const HomeNavbar = () => {
   const [colorChange, setColorchange] = useState(false);
   const changeNavbarColor = () => {
-    if (window.scrollY >= 2) {
+    if (window.scrollY >= 300) {
       setColorchange(true);
     } else {
       setColorchange(false);
