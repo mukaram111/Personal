@@ -19,7 +19,7 @@ import "./homeNavbar.css";
 const HomeNavbar = () => {
   const [colorChange, setColorchange] = useState(false);
   const changeNavbarColor = () => {
-    if (window.scrollY >= 300) {
+    if (window.scrollY >= 50) {
       setColorchange(true);
     } else {
       setColorchange(false);
@@ -28,7 +28,11 @@ const HomeNavbar = () => {
   window.addEventListener("scroll", changeNavbarColor);
   return (
     <>
-      {/* <Navbar bg="" expand="lg">
+      <Navbar
+        className={colorChange ? "navMain colorChange" : "navMain"}
+        bg=""
+        expand="lg"
+      >
         <Container>
           <Navbar.Brand>
             <Link to="/">
@@ -42,9 +46,10 @@ const HomeNavbar = () => {
               // style={{ maxHeight: '100px' }}
               // navbarScroll
             >
-              <Nav.Link className="navItems">
+              <Nav.Link className="nav-item">
                 {" "}
                 <Link
+                  // style={{ color: "white" }}
                   className={
                     colorChange
                       ? "navItems itemColorChange"
@@ -56,39 +61,69 @@ const HomeNavbar = () => {
                   Marketplace
                 </Link>
               </Nav.Link>
-              <Nav.Link className="navItems">
-                <Link to="/BuilderMain" className="navItemstyle">
-                  {" "}
+              <Nav.Link className="nav-item">
+                <Link
+                  className={
+                    colorChange
+                      ? "navItems itemColorChange"
+                      : " nav-link active navItems"
+                  }
+                  to="/BuilderMain"
+                >
                   Builder
                 </Link>
               </Nav.Link>
-              <Nav.Link className="navItems">
-                <Link to="/DOCS" className="navItemstyle">
-                  {" "}
-                  <strong> Docs</strong>
+              <Nav.Link className="nav-item">
+                <Link
+                  className={
+                    colorChange
+                      ? "navItems itemColorChange"
+                      : " nav-link active navItems"
+                  }
+                  to="/DOCS"
+                >
+                  Docs
                 </Link>
               </Nav.Link>
-              <Nav.Link className="navItems">
-                <Link to="/EventMain" className="navItemstyle">
-                  {" "}
+              <Nav.Link className="nav-item">
+                <Link
+                  className={
+                    colorChange
+                      ? "navItems itemColorChange"
+                      : " nav-link active navItems"
+                  }
+                  to="/EventMain"
+                >
                   Events
                 </Link>
               </Nav.Link>
-              <Nav.Link className="navItems">
-                {" "}
-                <Link to="/DAOMain" className="navItemstyle">
-                  {" "}
+              <Nav.Link className="nav-item">
+                <Link
+                  className={
+                    colorChange
+                      ? "navItems itemColorChange"
+                      : " nav-link active navItems"
+                  }
+                  to="/DAOMain"
+                >
                   DAO
                 </Link>
               </Nav.Link>
-              <Nav.Link to="" className="navItems">
-                <Link to="/BlogMain" className="navItemstyle">
+              <Nav.Link to="" className="nav-item">
+                <Link
+                  className={
+                    colorChange
+                      ? "navItems itemColorChange"
+                      : " nav-link active navItems"
+                  }
+                  to="/BlogMain"
+                >
                   {" "}
                   Blog
                 </Link>
               </Nav.Link>
             </Nav>
-            <Form className="d-flex">
+            <Form className="d-flex responsive">
               <span className="nav-item ">
                 <Link
                   className={
@@ -113,9 +148,9 @@ const HomeNavbar = () => {
             </Form>
           </Navbar.Collapse>
         </Container>
-      </Navbar> */}
-
-      <div className="container-fluid">
+      </Navbar>
+      {/* -------------------------------------------------- */}
+      {/* <div className="container-fluid">
         <div className="row">
           <div className={colorChange ? "navMain colorChange" : "navMain"}>
             <nav className="navbar navbar-expand-lg ">
@@ -222,7 +257,7 @@ const HomeNavbar = () => {
                       </Link>
                     </li>
                   </ul>
-                  <form className="d-flex">
+                  <form className="d-flex responsive">
                     <span className="nav-item ">
                       <Link
                         className={
@@ -252,7 +287,7 @@ const HomeNavbar = () => {
             </nav>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

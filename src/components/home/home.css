@@ -42,8 +42,11 @@
 .SectionTwoMain {
   background-image: url("../../assets/images/Setion2bg.jpg");
   width: 100%;
-  height: 100vh;
-  min-height: 590px;
+  /* background-color: #000; */
+  /* opacity: 2; */
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  /* height: 100vh; */
+  min-height: 650px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -111,6 +114,9 @@
   font-size: 48px;
   font-weight: 600;
   color: black;
+}
+.MoreEventsbtn {
+  justify-content: space-between;
 }
 .SecFivebtn {
   background-color: #ff2d55;
@@ -207,8 +213,9 @@
 /* --------------Section Six CSS------------------ */
 
 .SectionSixMain {
-  background-image: url("../../assets/images/pexels-lexi-lauwers-2921140.jpg");
+  background-image: url("../../assets/images/pexels-marco-milanesi-2670898.jpg");
 
+  /* background-image: url("../../assets/images/pexels-lexi-lauwers-2921140.jpg"); */
   /* background-image: url("../../assets/images/homeSection1.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
@@ -308,6 +315,14 @@
   .center {
     text-align: center;
   }
+  .displayNone {
+    display: none;
+  }
+  .MoreEventsbtn {
+    /* display: flex; */
+    justify-content: end;
+    text-align: end;
+  }
 }
 
 @media (max-width: 780px) {
@@ -318,5 +333,15 @@
 @media (max-width: 480px) {
   .greaterSign {
     display: none;
+  }
+  .secSevenHeading {
+    font-size: 28;
+    font-weight: 400;
+  }
+}
+@media (max-width: 990px) {
+  .sectionOneMainHeading {
+    padding-top: 50%;
+    /* text-align: center; */
   }
 }

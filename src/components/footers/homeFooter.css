@@ -1,4 +1,4 @@
-.Home_Footer_Main{
+.Home_Footer_Main {
   height: 100%;
 }
 .Footerlinks {
@@ -7,15 +7,14 @@
   justify-content: center;
 }
 
-
-.footerSelect{
+.footerSelect {
   background: transparent;
   font-weight: 500;
   border: 0;
   outline: 0;
   padding-left: 10px;
 }
-.selectImg{
+.selectImg {
   height: 20px;
 }
 
@@ -27,11 +26,17 @@
   margin-bottom: 8px;
   margin-left: 16px;
 }
-.spacingIcons{
+.spacingIcons {
   cursor: pointer;
   padding-left: 25px;
   color: rgb(71, 71, 71);
 }
-.spacingIcons:hover{
+.spacingIcons:hover {
   color: rgb(32, 32, 32);
+}
+
+@media (max-width: 680px) {
+  .footerIconSet {
+    padding-top: 10%;
+  }
 }

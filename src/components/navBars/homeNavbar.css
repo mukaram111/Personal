@@ -1,3 +1,9 @@
+.colorWhite {
+  color: #fff;
+}
+.nav-item {
+  color: #fff;
+}
 .navMain {
   background-color: transparent;
   /* z-index: -1; */
@@ -166,7 +172,9 @@
   text-decoration: none;
   color: #000;
 }
-
+.nav-link {
+  color: #fff !important;
+}
 .navtext a {
   color: #16141a;
 }
@@ -184,4 +192,13 @@
   text-decoration: none;
   font-weight: 400;
   line-height: 18px;
+}
+
+@media (max-width: 990px) {
+  .responsive {
+    display: none !important;
+  }
+  .nav-link {
+    padding-left: 0 !important;
+  }
 }

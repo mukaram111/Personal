@@ -21,8 +21,8 @@ const HomeSectionFive = () => {
             <div className="col-md-12">
               <p className="SectionFiveHeading">Can't decide where to start?</p>
             </div>
-            <div className="col-md-12 justify-content-between d-flex pt-3">
-              <div>
+            <div className="col-md-12  MoreEventsbtn d-flex pt-3">
+              <div className="displayNone">
                 <button className="SecFivebtn SectionFivebtn1">
                   upcoming events
                 </button>
@@ -30,9 +30,9 @@ const HomeSectionFive = () => {
                   point of interest
                 </button>
               </div>
-              <div>
+              <div className="">
                 {" "}
-                <Link to="/EventMain" className="moreArticle">
+                <Link to="/EventMain" className="moreArticle ">
                   more events
                   <img src={greaterSign} alt="greater sign" className="pl-2" />
                 </Link>
@@ -40,11 +40,8 @@ const HomeSectionFive = () => {
             </div>
           </div>
         </div>
-        <div
-          className="row m-0 pt-5 pb-5 justify-content-between"
-          style={{ padding: "75px" }}
-        >
-          <div className="container">
+        <div className="row m-0 pt-5 pb-5 justify-content-between">
+          <div className="">
             <SectionFiveCarsual />
           </div>
         </div>

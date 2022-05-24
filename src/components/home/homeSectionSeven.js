@@ -13,7 +13,9 @@ const HomeSectionSeven = () => {
           <div className="row pt-2 pb-5">
             <div className="col-md-12 d-flex justify-content-between">
               <div>
-                <p className="sectionEightHeading">From the blog</p>
+                <p className="sectionEightHeading secSevenHeading">
+                  From the blog
+                </p>
               </div>
               <div className="pt-4">
                 <Link to="/BlogMain" className="moreArticle">
