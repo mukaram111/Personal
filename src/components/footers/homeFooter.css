@@ -39,4 +39,12 @@
   .footerIconSet {
     padding-top: 10%;
   }
+  .Footerlinks {
+    display: block;
+    text-align: center;
+  }
+  .languageSelector {
+    padding-bottom: 7%;
+    padding-top: 4%;
+  }
 }

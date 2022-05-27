@@ -13,7 +13,7 @@ import HomeNavbar from "../../components/navBars/homeNavbar";
 const Home = () => {
   return (
     <>
-      <div className="row ">
+      <div className="row m-0">
         {" "}
         <HomeNavbar />
       </div>

@@ -19,7 +19,7 @@ const HomeFooter = () => {
               <div>
                 <div></div>
                 <div className="Footerlinks">
-                  <div>
+                  <div className="col languageSelector">
                     <label>
                       {" "}
                       <img
