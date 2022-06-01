@@ -6,7 +6,7 @@
 }
 .navMain {
   background-color: transparent;
-  /* z-index: -1; */
+  z-index: 1;
   position: fixed;
   /* padding: 10px 60px 0 60px; */
   width: 100%;

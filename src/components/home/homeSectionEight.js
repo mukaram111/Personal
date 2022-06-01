@@ -12,7 +12,9 @@ const HomeSectionEight = () => {
               You’ll find us at all hours on Discord. You can also reach us
               through the usual channels.
             </p>
-            <button className="homeSectionEightbtn btnanimated">get in touch</button>
+            <button className="homeSectionEightbtn btnanimated">
+              get in touch
+            </button>
           </div>
           {/* --------right Section--------- */}
           <div className="col-md-6 center">
@@ -22,9 +24,14 @@ const HomeSectionEight = () => {
               Lorem, delivered straight to your inbox
             </p>
             <form className="sectionEightForm">
-            <div className="d-flex justify-content-between">
-              <input  placeholder="email@domain.com" className="sectionEightInput" />
-              <button className="homeSectionEightbtn btnanimated">Sign up</button>
+              <div className="">
+                <input
+                  placeholder="email@domain.com"
+                  className="sectionEightInput"
+                />
+                <button className="homeSectionEightbtn btnanimated">
+                  Sign up
+                </button>
               </div>
             </form>
           </div>

@@ -1,0 +1,95 @@
+.DocsMainHeading {
+  font-size: 34px;
+  line-height: 42px;
+  letter-spacing: 0.4px;
+  font-weight: 500;
+}
+.DocsSubHeading {
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.3px;
+  font-weight: 500;
+}
+.DocsText {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: justify;
+}
+.DocsTextBold {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: justify;
+  font-weight: 500;
+}
+.DocsTextLinks {
+  color: #f05;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+.DocsTextLinks:hover {
+  color: #f05;
+}
+.docsBox {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(92, 92, 110, 0.2);
+  border-radius: 10px;
+}
+.boxTextDocs {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.3px;
+  color: rgb(22, 20, 26);
+}
+.docsBoxBtnTwo {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 13px;
+  text-transform: uppercase;
+  outline: none;
+  border-style: none;
+  border-radius: 6px;
+  padding: 8px 40px;
+  transition: background-color 250ms ease 0s;
+}
+.docsBoxBtnOne {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 13px;
+  background-color: black;
+  color: #fff;
+  text-transform: uppercase;
+  outline: none;
+  border-style: none;
+  border-radius: 6px;
+  padding: 8px 40px;
+  transition: background-color 250ms ease 0s;
+}
+.docsBoxBtnOne:hover {
+  background-color: #f05;
+}
+.textRight {
+  text-align: right;
+  padding-top: 10px;
+}
+
+.borderLeft {
+  border-left: 5px solid rgb(152, 152, 152);
+  padding-left: 5px;
+  border-radius: 5px;
+}
+.hashColor {
+  color: gainsboro;
+  /* display: none; */
+}
+.hashColor:hover {
+  display: revert;
+}
+
+@media (max-width: 580px) {
+  .docsBoxBtnTwo {
+    margin-top: 5px;
+  }
+}

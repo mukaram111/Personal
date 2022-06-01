@@ -1,12 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
+import vedio from "../../assets/Vedios/home-section-One-bg.mp4";
 import "./home.css";
+
 const HomeSectionOne = () => {
   return (
     <>
-      <div className="SectionOneMain">
-        <div className="container">
-          <div className="row center">
+      <div className="SectionOneMain ">
+        <iframe
+          className="SectionOneVedio"
+          src={vedio}
+          title="vediod"
+          allow="autoplay"
+        >
+          <source type="video/mp4" />
+        </iframe>
+
+        <div className="container" style={{ postion: "absolute" }}>
+          <div className="row ">
             <div className="sectionOneMainHeading">
               <h1 className="mainHeadingSectionone">Welcome to Lorem</h1>
             </div>
@@ -16,7 +28,7 @@ const HomeSectionOne = () => {
                 by its users.
               </p>
             </div>
-            <div>
+            <div style={{ zIndex: "1" }}>
               <button className="homeSectionOnebtn btnanimated">
                 <a
                   style={{ textDecoration: "none", color: "white" }}

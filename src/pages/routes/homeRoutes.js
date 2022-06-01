@@ -24,6 +24,8 @@ import CodeOfEthics from "components/footers/footerPages/CodeOfEthics";
 import LogoAndName from "components/footers/footerPages/LogoAndName";
 import Security from "components/footers/footerPages/Security";
 import BrowsingMain from "components/marketplace/startBrowsing/BrowsingMain";
+import Introduction from "components/docs/docsPages/World/Introduction";
+import SystemRequirments from "components/docs/docsPages/World/SystemRequirments";
 
 const HomeRoutes = () => {
   return (
@@ -53,7 +55,12 @@ const HomeRoutes = () => {
           <Route path="/Security" component={Security} />
           {/* -------------------------MarketPlace--------------------------- */}
           <Route path="/BrowsingMain" component={BrowsingMain} />
-
+          {/* --------------------------Docs------------------------------------- */}
+          <Route path="/Introduction" component={Introduction} />
+          <Route
+            path="/Docs_World_System_Requirements"
+            component={SystemRequirments}
+          />
           <Redirect to="/" />
         </Switch>
       </Router>

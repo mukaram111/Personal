@@ -12,11 +12,20 @@ const DocSidebar = () => {
         <div className="row">
           <div className="">
             <ul>
-              <li>Home</li>
+              <li>
+                <Link to="/DOCS"> Home</Link>
+              </li>
               <li>
                 World
                 <ul>
-                  <li>Introduction</li>
+                  <li>
+                    <Link to="/Introduction">Introduction</Link>
+                  </li>
+                  <li>
+                    <Link to="/Docs_World_System_Requirements">
+                      System Requirements
+                    </Link>
+                  </li>
                   <li>FQA</li>
                   <li>WhitePaper</li>
                 </ul>
