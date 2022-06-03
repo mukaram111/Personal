@@ -81,11 +81,11 @@
   border-radius: 5px;
 }
 .hashColor {
-  color: gainsboro;
+  color: #fff;
   /* display: none; */
 }
 .hashColor:hover {
-  display: revert;
+  color: gainsboro;
 }
 
 @media (max-width: 580px) {

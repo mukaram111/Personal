@@ -26,6 +26,10 @@ import Security from "components/footers/footerPages/Security";
 import BrowsingMain from "components/marketplace/startBrowsing/BrowsingMain";
 import Introduction from "components/docs/docsPages/World/Introduction";
 import SystemRequirments from "components/docs/docsPages/World/SystemRequirments";
+import FQA from "components/docs/docsPages/World/FQA";
+import WhitePaper from "components/docs/docsPages/World/WhitePaper";
+import HardwareAcceleration from "components/docs/docsPages/World/HardwareAcceleration";
+import DocsDAO from "components/docs/docsPages/World/DocsDAO";
 
 const HomeRoutes = () => {
   return (
@@ -61,6 +65,13 @@ const HomeRoutes = () => {
             path="/Docs_World_System_Requirements"
             component={SystemRequirments}
           />
+          <Route path="/FQA" component={FQA} />
+          <Route path="/WhitePaper" component={WhitePaper} />
+          <Route
+            path="/HardwareAcceleration"
+            component={HardwareAcceleration}
+          />
+          <Route path="/DocsDAO" component={DocsDAO} />
           <Redirect to="/" />
         </Switch>
       </Router>
