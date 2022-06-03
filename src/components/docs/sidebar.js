@@ -1,57 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Input, FormGroup, Label } from "reactstrap";
+import { DropdownButton, Dropdown, Label } from "react-bootstrap";
 
 // import "./dropdown.css";
-import "./sideBar.scss";
+import "./sideBar.css";
 const DocSidebar = () => {
   return (
     <>
-      <FormGroup>
-        <Label for="exampleSelectMulti">Select Multiple</Label>
-        <Input
-          type="select"
-          name="selectMulti"
-          id="exampleSelectMulti"
-          multiple
-        >
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-        </Input>
-      </FormGroup>
-
-      <div class="dropdown show">
-        <a
-          class="btn btn-secondary dropdown-toggle"
-          href="#"
-          role="button"
-          id="dropdownMenuLink"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-        >
-          Dropdown link
-        </a>
-
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-          <a class="dropdown-item" href="#">
-            Action
-          </a>
-          <a class="dropdown-item" href="#">
-            Another action
-          </a>
-          <a class="dropdown-item" href="#">
-            Something else here
-          </a>
-        </div>
-      </div>
-
       {/* ///////////////////////////////////////////////////// */}
 
-      <div className="container">
+      {/* <div className="container">
         <div className="row">
           <div className="">
             <ul>
@@ -154,7 +112,7 @@ const DocSidebar = () => {
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
