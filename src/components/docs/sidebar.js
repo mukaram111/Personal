@@ -9,7 +9,7 @@ const DocSidebar = () => {
     <>
       {/* ///////////////////////////////////////////////////// */}
 
-      {/* <div className="container">
+      <div className="container">
         <div className="row">
           <div className="">
             <ul>
@@ -112,7 +112,7 @@ const DocSidebar = () => {
             </ul>
           </div>
         </div>
-      </div> */}
+      </div>
     </>
   );
 };
