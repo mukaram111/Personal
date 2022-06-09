@@ -352,6 +352,9 @@
     font-size: 28;
     font-weight: 400;
   }
+  .homeEightbtn {
+    width: 100%;
+  }
 }
 @media (max-width: 990px) {
   .sectionOneMainHeading {

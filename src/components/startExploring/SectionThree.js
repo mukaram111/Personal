@@ -34,7 +34,7 @@ const SectionThree = () => {
           </div>
         </div>
         <div className="row">
-          <p className="SEsectionThreeText pt-5">© 2022 Decentraland</p>
+          <p className="SEsectionThreeText pt-5">© 2022 Game</p>
         </div>
       </div>
     </div>

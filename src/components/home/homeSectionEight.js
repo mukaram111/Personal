@@ -29,7 +29,7 @@ const HomeSectionEight = () => {
                   placeholder="email@domain.com"
                   className="sectionEightInput"
                 />
-                <button className="homeSectionEightbtn btnanimated">
+                <button className="homeEightbtn homeSectionEightbtn btnanimated">
                   Sign up
                 </button>
               </div>

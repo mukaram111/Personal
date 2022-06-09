@@ -71,7 +71,7 @@ const HomeFooter = () => {
                 </Link>
               </div>
               <div>
-                <p className="spacingIcons">© 2022 Decentraland</p>
+                <p className="spacingIcons">© 2022 Game</p>
               </div>
             </div>
           </div>

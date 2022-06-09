@@ -21,10 +21,10 @@ const Security = () => {
               Vulnerability Disclosure Procedure
             </p>
             <p className="footerText">
-              At Decentraland, we take every measure necessary to ensure the
-              security of the platform. If you are a security researcher and
-              took a look at some of our code, contracts, or websites and found
-              a vulnerability, you're eligible for a bounty for doing a
+              At Game, we take every measure necessary to ensure the security of
+              the platform. If you are a security researcher and took a look at
+              some of our code, contracts, or websites and found a
+              vulnerability, you're eligible for a bounty for doing a
               responsible disclosure of that bug.
             </p>
             <p className="FooterSubHeading"> 1. Code in Scope</p>
@@ -47,7 +47,7 @@ const Security = () => {
                   <Link className="EthicsLink">ui</Link>
                 </li>
                 <li>
-                  <Link className="EthicsLink">decentraland-dapps</Link>
+                  <Link className="EthicsLink">Game-dapps</Link>
                 </li>
                 <li>
                   <Link className="EthicsLink">builder-server</Link>
@@ -71,21 +71,21 @@ const Security = () => {
               <p>As well as the following web properties:</p>
               <ul>
                 <li>
-                  <Link className="EthicsLink">*.decentraland.org</Link>
+                  <Link className="EthicsLink">*.Game.org</Link>
                 </li>
                 <li>
-                  <Link className="EthicsLink">*.decentraland.zone</Link>
+                  <Link className="EthicsLink">*.Game.zone</Link>
                 </li>
                 <li>
-                  <Link className="EthicsLink">*.decentraland.today</Link>
+                  <Link className="EthicsLink">*.Game.today</Link>
                 </li>
               </ul>
             </p>
             <p className="FooterSubHeading"> 2. Report the vulnerability</p>
             <p className="footerText">
-              Please send us this detailed description to
-              security@decentraland.org. Include an ethereum address that you
-              control in order for the bounty to be awarded.
+              Please send us this detailed description to security@Game.org.
+              Include an ethereum address that you control in order for the
+              bounty to be awarded.
             </p>
             <p className="footerText">Such report should include:</p>
             <p className="footerText">

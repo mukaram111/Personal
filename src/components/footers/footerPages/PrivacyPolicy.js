@@ -66,10 +66,7 @@ const PrivacyPolicy = () => {
               1.4 Any questions, comments or complaints that you might have
               should be emailed to
               <span>
-                <Link className="footerTextLinks">
-                  {" "}
-                  privacy@decentraland.org.
-                </Link>
+                <Link className="footerTextLinks"> privacy@Game.org.</Link>
               </span>
             </p>
             <p className="FooterSubHeading">
@@ -197,8 +194,8 @@ const PrivacyPolicy = () => {
               claims or allegations, to respond to court orders or official
               requests, to protect the security or integrity of the Site or the
               Tools, and to protect the rights, property, or safety of the
-              Foundation, the Decentraland community of users and LAND owners,
-              or others.
+              Foundation, the Game community of users and LAND owners, or
+              others.
             </p>
             <p className="footerText">
               {" "}
@@ -289,7 +286,7 @@ const PrivacyPolicy = () => {
               9.3. If you wish to investigate the exercising of any of these
               rights, please write to us at the following address:{" "}
               <Link className="footerTextLinks" to="">
-                privacy@decentraland.org
+                privacy@Game.org
               </Link>
               .
             </p>{" "}
@@ -305,7 +302,7 @@ const PrivacyPolicy = () => {
             <p className="footerText">
               {" "}
               10.2 Contact Information:{" "}
-              <Link className="footerTextLinks">privacy@decentraland.org</Link>.
+              <Link className="footerTextLinks">privacy@Game.org</Link>.
             </p>
           </div>
         </div>

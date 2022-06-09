@@ -20,7 +20,7 @@ const FQA = () => {
         <div className="container">
           <p className="DocsMainHeading">FAQ</p>
           <p className="DocsSubHeading pt-4">
-            What equipment or software do I need to play in Decentraland?
+            What equipment or software do I need to play in Game?
             <span className="hashColor">#</span>
           </p>
           <p className="DocsText">
@@ -36,8 +36,8 @@ const FQA = () => {
             Can I log in from multiple computers?
           </li>
           <p className="DocsText">
-            Yes, you can run Decentraland from multiple computers as long as you
-            have your digital wallet installed on each machine.
+            Yes, you can run Game from multiple computers as long as you have
+            your digital wallet installed on each machine.
           </p>
           <li className="DocsTextBold">Can I use a different browser?</li>
           <p className="DocsText">
@@ -45,22 +45,22 @@ const FQA = () => {
             recommend Chrome, Firefox or Brave to ensure optimal performance.
           </p>
           <p className="DocsSubHeading pt-3">
-            Do I need a wallet to play in Decentraland?
+            Do I need a wallet to play in Game?
             <span className="hashColor">#</span>
           </p>
           <p className="DocsText">
-            If you want to fully enjoy the Decentraland experience, we recommend
-            you get yourself a digital wallet. Digital wallets work as your
-            personal account, keeping all your digital assets (such as names,
+            If you want to fully enjoy the Game experience, we recommend you get
+            yourself a digital wallet. Digital wallets work as your personal
+            account, keeping all your digital assets (such as names,
             collectibles, LANDs) and in-world progress safe.
           </p>
           <p className="DocsText">
-            If you choose to experience Decentraland Explorer without a wallet,
-            the information will only be locally stored: you will be able to
-            walk around, customize your Avatar and chat with others in-world,
-            but you won’t have the chance to receive daily rewards, participate
-            in events or log in with a different device using the same Guest ID
-            and Avatar.
+            If you choose to experience Game Explorer without a wallet, the
+            information will only be locally stored: you will be able to walk
+            around, customize your Avatar and chat with others in-world, but you
+            won’t have the chance to receive daily rewards, participate in
+            events or log in with a different device using the same Guest ID and
+            Avatar.
           </p>
           <p className="DocsText">
             If this is the first time you’re hearing about digital wallets, we
@@ -109,8 +109,7 @@ const FQA = () => {
           <p className="DocsText">
             Yes. Visit the Names page in the Builder to claim it. All you need
             is an installed digital wallet and at least 100 MANA to burn.
-            Another alternative is to buy a name in the Decentraland
-            Marketplace.
+            Another alternative is to buy a name in the Game Marketplace.
           </p>
 
           <div className=" docsBox p-4">

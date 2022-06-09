@@ -20,59 +20,47 @@ const TermofUse = () => {
             <p className="FooterMainHeading">Terms of Use</p>
             <p className="FooterSubHeading">1. Acceptance of Terms</p>
             <p className="footerText">
-              The Decentraland Foundation (the "Foundation"), acting for the
-              benefit of the Decentraland community as a whole, holds the
-              intellectual property rights over, and makes available, (a) the
-              DCL Client, the Desktop Client, the SDK 5.0, the Marketplace (
-              <Link className="footerTextLinks">
-                https://dao.decentraland.org
-              </Link>
+              The Game Foundation (the "Foundation"), acting for the benefit of
+              the Game community as a whole, holds the intellectual property
+              rights over, and makes available, (a) the DCL Client, the Desktop
+              Client, the SDK 5.0, the Marketplace (
+              <Link className="footerTextLinks">https://dao.Game.org</Link>
               ), the Builder, the Blog, Events, Agora, Forum, the Land Manager,
               the Command Line Interface, DAO, the Developers’ Hub, the Rewards
               tool which, with any other features, tools and/or materials made
               available from time to time by the Foundation, are referred to
               herein as the "Tools" and (b) the website &nbsp;
-              <Link className="footerTextLinks">
-                https://dao.decentraland.org
-              </Link>{" "}
-              (the "Site"). Please read these Terms of Use (the "Terms" or
-              "Terms of Use") carefully before using the Tools and the Site. By
-              using or otherwise accessing the Tools and the Site, you: (1)
-              accept and agree to be bound by these Terms; (2) accept that the
-              Tools are still in testing phase and that you use at your own
-              risk, as further explained in Section 2 below; (3) represent that
-              you are old enough to use the Tools and the Site pursuant to
-              Sections 3 and 9 below; (4) consent to the collection, use,
-              disclosure and other handling of information as described in the
-              Privacy Policy, available here &nbsp;
-              <Link className="footerTextLinks">
-                https://dao.decentraland.org
-              </Link>{" "}
-              ; (5) accept and agree (5.1.) the Content Policy approved by the
+              <Link className="footerTextLinks">https://dao.Game.org</Link> (the
+              "Site"). Please read these Terms of Use (the "Terms" or "Terms of
+              Use") carefully before using the Tools and the Site. By using or
+              otherwise accessing the Tools and the Site, you: (1) accept and
+              agree to be bound by these Terms; (2) accept that the Tools are
+              still in testing phase and that you use at your own risk, as
+              further explained in Section 2 below; (3) represent that you are
+              old enough to use the Tools and the Site pursuant to Sections 3
+              and 9 below; (4) consent to the collection, use, disclosure and
+              other handling of information as described in the Privacy Policy,
+              available here &nbsp;
+              <Link className="footerTextLinks">https://dao.Game.org</Link> ;
+              (5) accept and agree (5.1.) the Content Policy approved by the
               DAO, available here &nbsp;
-              <Link className="footerTextLinks">
-                https://dao.decentraland.org
-              </Link>
-              , and (5.2.) any additional terms and conditions of participation
-              issued by the Foundation from time to time. If you do not agree to
-              the Terms, then you must not access or use the Tools or the Site.
+              <Link className="footerTextLinks">https://dao.Game.org</Link>, and
+              (5.2.) any additional terms and conditions of participation issued
+              by the Foundation from time to time. If you do not agree to the
+              Terms, then you must not access or use the Tools or the Site.
             </p>
             <p className="footerText">
               As per the endowment received, the Foundation makes available the
               Tools and the Site free of charge in order to allow different
-              interactions with the Decentraland platform ("Decentraland"), a
-              decentralized virtual world. The Foundation does not own or
-              control Decentraland, as ownership and governance is decentralized
-              in the community through the DAO.
+              interactions with the Game platform ("Game"), a decentralized
+              virtual world. The Foundation does not own or control Game, as
+              ownership and governance is decentralized in the community through
+              the DAO.
             </p>
             <p className="footerText">
-              Decentraland is governed by a decentralized autonomous
-              organization (the "DAO"). For further information please see
-              &nbsp;
-              <Link className="footerTextLinks">
-                https://dao.decentraland.org
-              </Link>
-              .
+              Game is governed by a decentralized autonomous organization (the
+              "DAO"). For further information please see &nbsp;
+              <Link className="footerTextLinks">https://dao.Game.org</Link>.
             </p>
             <p className="footerText">
               The Foundation has no continuing obligation to operate the Tools
@@ -114,8 +102,8 @@ const TermofUse = () => {
               You hereby represent and warrant that you are fully able and
               competent to enter into the terms, conditions, obligations,
               affirmations, representations and warranties set forth in these
-              Terms and to abide by and comply with these Terms. Decentraland is
-              a global platform and by accessing the Content, the Site or Tools,
+              Terms and to abide by and comply with these Terms. Game is a
+              global platform and by accessing the Content, the Site or Tools,
               you are representing and warranting that you are of the legal age
               of majority in your jurisdiction as is required to access such
               Tools and Content and enter into arrangements as provided by the
@@ -216,8 +204,8 @@ const TermofUse = () => {
               and/or the Foundation will not be responsible or liable for the
               accuracy, copyright compliance, legality or decency of material
               contained in or accessed through the Tools. The Content Policy
-              over Decentraland is established and enforced exclusively by the
-              Decentraland community through the DAO.
+              over Game is established and enforced exclusively by the Game
+              community through the DAO.
             </p>
             <p className="FooterTextSubHeading">
               5.2 Sophistication and Risk of Cryptographic Systems
@@ -235,9 +223,9 @@ const TermofUse = () => {
                 https://github.com/ethereum/EIPs/issues/20
               </Link>
               ), MANA (the ERC-20 token that allows users to claim parcels of
-              LAND and trade with each other within Decentraland), LAND (the
-              ERC-721 token, associating each LAND parcel's x and y coordinates
-              with a definition of a parcel's 3D scene that makes up the larger
+              LAND and trade with each other within Game), LAND (the ERC-721
+              token, associating each LAND parcel's x and y coordinates with a
+              definition of a parcel's 3D scene that makes up the larger
               metaverse) and blockchain-based software systems.
             </p>
             <p className="FooterTextSubHeading">
@@ -333,7 +321,7 @@ const TermofUse = () => {
               apply to your LAND parcel related transactions, and any other
               transaction conducted by you. The Foundation does not, and will
               not, have any insight into or control over any transactions
-              conducted by you in Decentraland, and thus is not responsible for
+              conducted by you in Game, and thus is not responsible for
               determining the Taxes that apply to your transactions entered
               through the Tools or otherwise involving any LAND parcel, or any
               other related transaction, and is not to act as a withholding Tax
@@ -403,11 +391,11 @@ const TermofUse = () => {
               participants to the transaction. All MANA spent under the
               Marketplace Transaction Cost will be transferred to the treasury
               of the DAO. Please be aware that transactions in third-party NFT
-              marketplaces (inside or outside Decentraland) may be subject to
-              the fees charged by said third-party marketplaces as per the
-              respective terms and conditions. The Foundation and/or the DAO
-              shall have no liability whatsoever with regards to transactions
-              conducted in third-party marketplaces.
+              marketplaces (inside or outside Game) may be subject to the fees
+              charged by said third-party marketplaces as per the respective
+              terms and conditions. The Foundation and/or the DAO shall have no
+              liability whatsoever with regards to transactions conducted in
+              third-party marketplaces.
             </p>
             <p className="footerText">
               6.4 You will be solely responsible to pay any and all sales, use,
@@ -417,13 +405,13 @@ const TermofUse = () => {
               associated with your use of the Tools (including, without
               limitation, any Taxes that may become payable as the result of
               your ownership, or transfer of any NFT and any activity conducted
-              by you in Decentraland). Except for income taxes levied on the
-              Foundation, you: (i) will pay or reimburse the Foundation for all
-              national, federal, state, local or other taxes and assessments of
-              any jurisdiction, including value added taxes and taxes as
-              required by international tax treaties, customs or other import or
-              export taxes, and amounts levied in lieu thereof based on charges
-              set, services performed or payments made hereunder, as are now or
+              by you in Game). Except for income taxes levied on the Foundation,
+              you: (i) will pay or reimburse the Foundation for all national,
+              federal, state, local or other taxes and assessments of any
+              jurisdiction, including value added taxes and taxes as required by
+              international tax treaties, customs or other import or export
+              taxes, and amounts levied in lieu thereof based on charges set,
+              services performed or payments made hereunder, as are now or
               hereafter may be imposed under the authority of any national,
               state, local or any other taxing jurisdiction; and (ii) shall not
               be entitled to deduct the amount of any such taxes, duties or

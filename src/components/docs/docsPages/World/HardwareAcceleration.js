@@ -20,10 +20,9 @@ const HardwareAcceleration = () => {
           <div className="container">
             <p className="DocsMainHeading">Hardware Acceleration</p>
             <p className="DocsText">
-              Since Decentraland runs in a web browser, you might need to
-              configure your browser and/or operating system to have access to
-              all of your machine’s potential to run Decentraland as smoothly as
-              possible.
+              Since Game runs in a web browser, you might need to configure your
+              browser and/or operating system to have access to all of your
+              machine’s potential to run Game as smoothly as possible.
             </p>
             <p>
               <img className="img-fluid" src={HApic} alt="pic" />
@@ -31,15 +30,15 @@ const HardwareAcceleration = () => {
             <p className="DocsText">
               If you see this warning, it means that you are using a sub-optimal
               set up for rendering 3d graphics. Your experience when playing
-              Decentraland might be laggy and unresponsive because of this. You
-              might notice missing frames as you move around in a jumpy way.
+              Game might be laggy and unresponsive because of this. You might
+              notice missing frames as you move around in a jumpy way.
             </p>
             <p className="DocsText borderLeft">
               Note: Some lower end machines, or machines that are not designed
               for gaming, may not have a dedicated graphics card at all. If
               that’s your case, then ignore this warning. You might still be
-              able to improve how you experience Decentraland by opening the
-              Settings panel and lowering the graphics quality. See{" "}
+              able to improve how you experience Game by opening the Settings
+              panel and lowering the graphics quality. See{" "}
               <Link className="DocsTextLinks">system requirements</Link>.
             </p>
             <p className="DocsSubHeading">Context</p>

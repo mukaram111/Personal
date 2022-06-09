@@ -21,16 +21,16 @@ const SystemRequirments = () => {
             <p className="DocsMainHeading">System requirements</p>
             <p className="DocsText">
               These are the minimum system specs required to successfully run
-              the Decentraland explorer.
+              the Game explorer.
             </p>
             <p className="DocsText">
               The minimum requirements differ depending on if you’re running
-              Decentraland via a web browser, or if you’re running a locally
-              installed desktop client. The desktop client has considerably
-              lower requirements, as it’s not limited by the browser.
+              Game via a web browser, or if you’re running a locally installed
+              desktop client. The desktop client has considerably lower
+              requirements, as it’s not limited by the browser.
             </p>
             <p className="DocsText borderLeft">
-              Note: Decentraland currently does not run on any mobile devices.
+              Note: Game currently does not run on any mobile devices.
             </p>
             <p className="DocsSubHeading mb-0">
               Web Client <span className="hashColor">#</span>

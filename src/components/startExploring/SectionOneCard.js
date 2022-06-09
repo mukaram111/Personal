@@ -17,13 +17,13 @@ const SectionOneCard = () => {
             <img src={SEcardpic1} className="cardImgSectionOne" alt="Trulli" />
 
             {/* <p className="">
-                Connect your account to fully enjoy Decentraland!
+                Connect your account to fully enjoy Game!
               </p> */}
             <div className="overlay">
-            <p className="walletTextStand">Play using your wallet</p>
+              <p className="walletTextStand">Play using your wallet</p>
               <p className="walletText">Play using your wallet</p>
               <p className="walletTextTwo">
-                Connect your account to fully enjoy Decentraland!
+                Connect your account to fully enjoy Game!
               </p>
               <div className="cardBtnMain">
                 {/* <Link to="/SectionOneModal"></Link> */}

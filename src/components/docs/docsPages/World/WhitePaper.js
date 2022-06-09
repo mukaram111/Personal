@@ -19,20 +19,20 @@ const WhitePaper = () => {
         <div className="container">
           <p className="DocsMainHeading">Whitepaper</p>
           <p className="DocsText">
-            The original Decentraland white paper written by Esteban Ordano,
-            Ariel Meilich, Yemel Jardi, and Manuel Araoz can be found using the
-            link below.
+            The original Game white paper written by Esteban Ordano, Ariel
+            Meilich, Yemel Jardi, and Manuel Araoz can be found using the link
+            below.
           </p>
           <p className="DocsText">
             This white paper presents a detailed explanation of the original
-            philosophical motivations behind the Decentraland project, along
-            with a rigorous discussion of the proposed technical and economic
-            approaches to building Decentraland. Please keep in mind that the
-            Decentraland project is continually evolving, and some of the
-            approaches outlined in the white paper have been modified.
+            philosophical motivations behind the Game project, along with a
+            rigorous discussion of the proposed technical and economic
+            approaches to building Game. Please keep in mind that the Game
+            project is continually evolving, and some of the approaches outlined
+            in the white paper have been modified.
           </p>
           <li className="pb-5">
-            <Link className="DocsTextLinks">Decentraland White Paper</Link>
+            <Link className="DocsTextLinks">Game White Paper</Link>
           </li>
 
           <div className=" docsBox p-4 ">

@@ -20,27 +20,24 @@ const Introduction = () => {
           <div className="container">
             <p className="DocsMainHeading">Introduction</p>
             <p className="DocsTextBold">
-              Decentraland is a decentralized virtual reality platform powered
-              by the Ethereum blockchain. Within the Decentraland platform,
-              users can create, experience, and monetize their content and
-              applications.
+              Game is a decentralized virtual reality platform powered by the
+              Ethereum blockchain. Within the Game platform, users can create,
+              experience, and monetize their content and applications.
             </p>
             <p>
-              <Link className="DocsTextLinks">
-                Enter and explore decentraland
-              </Link>
+              <Link className="DocsTextLinks">Enter and explore Game</Link>
             </p>
             <p className="DocsText">
-              The finite, traversable, 3D virtual space within Decentraland is
-              called <span className="DocsTextBold">LAND</span>, a non-fungible
-              digital asset maintained in an Ethereum smart contract. Land is
-              divided into <span className="DocsTextBold">parcels</span> that
-              are identified by cartesian coordinates (x,y). These parcels are
+              The finite, traversable, 3D virtual space within Game is called{" "}
+              <span className="DocsTextBold">LAND</span>, a non-fungible digital
+              asset maintained in an Ethereum smart contract. Land is divided
+              into <span className="DocsTextBold">parcels</span> that are
+              identified by cartesian coordinates (x,y). These parcels are
               permanently owned by members of the community and are purchased
-              using MANA, Decentraland’s cryptocurrency token. This gives users
-              full control over the environments and applications that they
-              create, which can range from anything like static 3D scenes to
-              more interactive applications or games.
+              using MANA, Game’s cryptocurrency token. This gives users full
+              control over the environments and applications that they create,
+              which can range from anything like static 3D scenes to more
+              interactive applications or games.
             </p>
             <p className="DocsText">
               Some parcels are further organized into themed communities, or
@@ -50,9 +47,9 @@ const Introduction = () => {
               with common interests and uses. You can find a list of the
               original District Proposals on{" "}
               <Link className="DocsTextLinks">GitHub</Link>. The content that
-              makes up Decentraland is stored and distributed via a
-              decentralized network while ownership and transactions are
-              validated on the Ethereum blockchain.
+              makes up Game is stored and distributed via a decentralized
+              network while ownership and transactions are validated on the
+              Ethereum blockchain.
             </p>
             <div className=" docsBox p-4">
               <div>

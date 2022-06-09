@@ -56,9 +56,8 @@ const SectionTwo = () => {
                   <li>
                     <p>Can I log in from multiple computers?</p>
                     <p>
-                      Yes, you can run Decentraland from multiple computers as
-                      long as you have your digital wallet installed on each
-                      machine.
+                      Yes, you can run Game from multiple computers as long as
+                      you have your digital wallet installed on each machine.
                     </p>
                   </li>
                   <li>
@@ -88,19 +87,18 @@ const SectionTwo = () => {
             {showdataTwo ? (
               <div className="SectionTwoInnerText">
                 <p>
-                  If you want to fully enjoy the Decentraland experience, we
-                  recommend you get yourself a digital wallet. Digital wallets
-                  work as your personal account, keeping all your digital assets
-                  (such as names, collectibles, LANDs) and in-world progress
-                  safe.
+                  If you want to fully enjoy the Game experience, we recommend
+                  you get yourself a digital wallet. Digital wallets work as
+                  your personal account, keeping all your digital assets (such
+                  as names, collectibles, LANDs) and in-world progress safe.
                 </p>
                 <p>
-                  If you choose to experience Decentraland Explorer without a
-                  wallet, the information will only be stored locally: you will
-                  be able to walk around, customize your Avatar and chat with
-                  others in-world, but you won’t have the chance to receive
-                  daily rewards, participate in events or log in with a
-                  different device using the same Guest ID and Avatar.
+                  If you choose to experience Game Explorer without a wallet,
+                  the information will only be stored locally: you will be able
+                  to walk around, customize your Avatar and chat with others
+                  in-world, but you won’t have the chance to receive daily
+                  rewards, participate in events or log in with a different
+                  device using the same Guest ID and Avatar.
                 </p>
                 <p>
                   If this is the first time you’re hearing about digital
@@ -123,10 +121,10 @@ const SectionTwo = () => {
             {showdataThree ? (
               <div className="SectionTwoInnerText">
                 <p>
-                  MANA is Decentraland’s fungible, ERC20 cryptocurrency token.
-                  MANA is burned, or spent, in exchange for LAND parcels. For a
-                  current summary of critical stats like total and circulating
-                  supply, please visit our MANA Token Information transparency
+                  MANA is Game’s fungible, ERC20 cryptocurrency token. MANA is
+                  burned, or spent, in exchange for LAND parcels. For a current
+                  summary of critical stats like total and circulating supply,
+                  please visit our MANA Token Information transparency
                   dashboard. See the <a className="colorChange">Glossary</a> for
                   more information.
                 </p>
@@ -172,8 +170,8 @@ const SectionTwo = () => {
               <div className="SectionTwoInnerText">
                 <p>
                   The Marketplace is the go-to place to trade and manage all
-                  your Decentraland on-chain assets. Access the Marketplace at{" "}
-                  <a className="colorChange">market.decentraland.org</a>.
+                  your Game on-chain assets. Access the Marketplace at{" "}
+                  <a className="colorChange">market.Game.org</a>.
                 </p>
                 <p>The Marketplace allows you to:</p>
 

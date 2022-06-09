@@ -8,7 +8,7 @@ const MarketplaceSectionOne = () => {
     <div className="MarketMain">
       <div className="container">
         <div>
-          <p className="MarketTitle">Decentraland Marketplace</p>
+          <p className="MarketTitle">Game Marketplace</p>
           <p className="MarsectionOneText">
             Welcome to the virtual world’s one-stop-shop for the very best
             digital assets.

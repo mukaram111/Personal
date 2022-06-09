@@ -23,7 +23,7 @@ const ContentPolicy = () => {
               <strong>"Content"</strong> shall mean any work of authorship,
               creative works, graphics, images, textures, photos, logos, video,
               audio, text and interactive features, including without limitation
-              NFTs, submitted by the Users of Decentraland.
+              NFTs, submitted by the Users of Game.
             </p>
             <p className="footerText">
               <strong>"Intellectual Property Rights"</strong> shall mean rights
@@ -53,9 +53,9 @@ const ContentPolicy = () => {
             </p>
             <p className="footerText">
               <strong>"NFT"</strong> means non-fungible token, including, LAND,
-              Wearables and any other kind of NFTs available in Decentraland.
-              All NFTs must comply with this Content Policy in accordance with
-              section 12.4 of the Terms of Use.
+              Wearables and any other kind of NFTs available in Game. All NFTs
+              must comply with this Content Policy in accordance with section
+              12.4 of the Terms of Use.
             </p>
             <p className="FooterSubHeading">2. Prohibited Content</p>
             <p className="footerText">
@@ -163,12 +163,12 @@ const ContentPolicy = () => {
             </p>
             <p className="FooterSubHeading">7. Storage.</p>
             <p className="footerText">
-              You acknowledge that due to the decentralized nature of
-              Decentraland and of the blockchain technology, all Content and
-              information submitted by you is not stored in a centralized
-              server, but in several decentralized nodes (the "
-              <strong>Nodes</strong>"). Thus, the Foundation or the DAO are not
-              liable for any loss of content or information.
+              You acknowledge that due to the decentralized nature of Game and
+              of the blockchain technology, all Content and information
+              submitted by you is not stored in a centralized server, but in
+              several decentralized nodes (the "<strong>Nodes</strong>"). Thus,
+              the Foundation or the DAO are not liable for any loss of content
+              or information.
             </p>
             <p className="footerText">
               The Nodes recognize and accept that in the event of any court

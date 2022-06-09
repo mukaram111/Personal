@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import { RiArrowDropDownLine } from "react-icons/ri";
 
-import NavImage from "../../assets/images/download.svg";
+import NavImage from "../../assets/images/logo.png";
 
 import "./homeNavbar.css";
 
