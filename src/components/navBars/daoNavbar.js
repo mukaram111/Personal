@@ -4,6 +4,7 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import NavImage from "assets/images/download.svg";
 
+import logoGame from '../../assets/images/logoGame.png'
 import "./homeNavbar.css";
 
 const DaoNavbar = () => {
@@ -24,7 +25,7 @@ const DaoNavbar = () => {
             <nav className="navbar navbar-expand-lg ">
               <div className="container-fluid">
                 <Link className="navbar-brand" to="/">
-                  <img className="navImg" src={NavImage} alt="NavBar Imag" />
+                  <img className="navImg" src={logoGame} alt="NavBar Imag" />
                 </Link>
                 <button
                   className="navbar-toggler"

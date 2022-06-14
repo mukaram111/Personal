@@ -11,6 +11,7 @@ import {
 } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
+import logoGame from '../../assets/images/logoGame.png'
 import NavImage from "../../assets/images/download.svg";
 
 import "./homeNavbar.css";
@@ -22,7 +23,7 @@ const BlogNavbar = () => {
         <Container fluid>
           <Navbar.Brand>
             <Link to="/">
-              <img className="navImg" src={NavImage} alt="NavBar Imag" />
+              <img className="navImg" src={logoGame} alt="NavBar Imag" />
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />

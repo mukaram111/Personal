@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 import { RiArrowDropDownLine } from "react-icons/ri";
 
+import logoGame from '../../assets/images/logoGame.png'
 import NavImage from "../../assets/images/logo.png";
 
 import "./homeNavbar.css";
@@ -33,7 +34,7 @@ const HomeNavbar = () => {
         <Container>
           <Navbar.Brand>
             <Link to="/">
-              <img className="navImg" src={NavImage} alt="NavBar Imag" />
+              <img className="navImg" src={logoGame} alt="NavBar Imag" />
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle

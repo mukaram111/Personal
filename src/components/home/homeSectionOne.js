@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-// import vedio from "../../assets/Vedios/home-section-One-bg.mp4";
+import vedio from "../../assets/Vedios/home-section-One-bg.mp4";
 
 import vedioz from "assets/Vedios/div.mp4";
 import "./home.css";
@@ -10,22 +10,22 @@ const HomeSectionOne = () => {
   return (
     <>
       <div className="SectionOneMain ">
-        <video className="SectionOneVedio">
+        {/* <video className="SectionOneVedio">
           <source
-            src={vedioz}
-            // src="https://www.youtube.com/watch?v=XHYVMMuCYos"
-            type="video/mp4"
-          />
-        </video>
+            src={vedioz} */}
+            {/* // src="https://www.youtube.com/watch?v=XHYVMMuCYos" */}
+            {/* type="video/mp4" */}
+          {/* />
+        </video> */}
 
-        {/* <iframe
+        <iframe
           className="SectionOneVedio"
           src={vedio}
           title="vediod"
           allow="autoplay"
         >
           <source type="video/mp4" />
-        </iframe> */}
+        </iframe>
 
         <div className="container" style={{ postion: "absolute" }}>
           <div className="row ">

@@ -5,6 +5,7 @@ import NavImage from "../../assets/images/download.svg";
 import { FaDiscord } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
+import logoGame from '../../assets/images/logoGame.png'
 const StartExploringNavbar = () => {
   return (
     <>
@@ -17,7 +18,7 @@ const StartExploringNavbar = () => {
             <nav className="navbar navbar-expand-lg ">
               <div className="container-fluid">
                 <Link className="navbar-brand" to="/">
-                  <img className="navImg" src={NavImage} alt="NavBar Imag" />
+                  <img className="navImg" src={logoGame} alt="NavBar Imag" />
                 </Link>
                 <button
                   className="navbar-toggler"

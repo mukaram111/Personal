@@ -16,7 +16,7 @@ const MarketplaceSectionOne = () => {
         </div>
         <div className="pt-4">
           <button className="marketbtnOne btnanimated">
-            <Link to="/BrowsingMain"> START BROWSING </Link>
+            <Link to="/BrowsingMain" className="removeLinkStyle"> START BROWSING </Link>
           </button>
         </div>
       </div>

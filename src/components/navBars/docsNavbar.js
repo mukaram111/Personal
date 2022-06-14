@@ -1,5 +1,7 @@
 import React from "react";
 import NavImage from "../../assets/images/download.svg";
+
+import logoGame from '../../assets/images/logoGame.png'
 import "./homeNavbar.css";
 import "./docsNavbar.css";
 import {
@@ -20,7 +22,7 @@ const DocsNavbar = () => {
         <Container>
           <Navbar.Brand>
             <Link to="/">
-              <img className="navImg" src={NavImage} alt="NavBar Imag" />
+              <img className="navImg" src={logoGame} alt="NavBar Imag" />
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
