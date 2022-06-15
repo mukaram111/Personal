@@ -1,0 +1,67 @@
+.avatarPic{
+    border-radius: 50%;
+ width: 200px;
+    height: 200px;
+}
+.bgColorPurple{
+    background-color: #998fc8;
+    border-radius: 10px;
+    padding: 20px 5px;
+}
+.clientName{
+    color:white;
+    font-weight: 700;
+    font-size: 28px;
+}
+.descript{
+  color: white;  
+  font-weight: 500;
+}
+.clientbtn{
+    background: transparent;
+    outline: 0;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: 2px solid white ;
+    margin-left: 8px;
+    border-radius: 5px;
+}
+.centerBtn{
+    align-items: center;
+    justify-content: end;
+    display: flex;
+}
+.clientCardMain{
+    border: 1px solid rgb(193, 193, 193);
+    border-radius: 5px;
+    min-height: 400px;
+}
+.clientname{
+    font-weight: 500;
+
+}
+.dots{
+    color: #f05;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.clientCardBtn{
+    border: none;
+    outline: 0;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 3px 6px;
+    min-width: 70px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.watermelon{
+    font-size: 65px;
+}
+.numberIcon{
+    font-size: 30px;
+}

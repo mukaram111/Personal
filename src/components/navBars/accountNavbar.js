@@ -1,25 +1,29 @@
-import React from "react";
+import * as React from "react";
+import Avatar from "@mui/material/Avatar";
 import {
+  Nav,
+  Form,
   Navbar,
   Container,
-  Nav,
   NavDropdown,
-  Form,
   FormControl,
   Button,
 } from "react-bootstrap";
 import { Link } from "react-router-dom";
+// import Avatar from "@mui/material/Avatar";
+import {GiDividedSquare} from 'react-icons/gi'
 
-import logoGame from '../../assets/images/logoGame.png'
 import NavImage from "../../assets/images/download.svg";
+import logoGame from "../../assets/images/logoGame.png";
 
 import "./homeNavbar.css";
+import "./docsNavbar.css";
 
-const BuilderNavbar = () => {
+const AccountNavbar = () => {
   return (
     <>
       <Navbar bg="" expand="lg">
-        <Container fluid>
+        <Container>
           <Navbar.Brand>
             <Link to="/">
               <img className="navImg" src={logoGame} alt="NavBar Imag" />
@@ -34,58 +38,59 @@ const BuilderNavbar = () => {
             >
               <Nav.Link className="navItems">
                 {" "}
-                <Link to="/MarketPlaceMain" className="navItemstyle" style={{color:'#fff'}}>
+                <Link to="/MarketPlaceMain" className="navItemstyle">
+                  {" "}
                   Marketplace
                 </Link>
               </Nav.Link>
               <Nav.Link className="navItems">
-                <Link to="/BuilderMain" className="navItemstyle" style={{color:'#fff'}}>
+                <Link to="/BuilderMain" className="navItemstyle">
                   {" "}
                   Builder
                 </Link>
               </Nav.Link>
               <Nav.Link className="navItems">
-                <Link to="/DOCS" className="navItemstyle" style={{color:'#fff'}}>
+                <Link to="/DOCS" className="navItemstyle">
                   {" "}
                   Docs
                 </Link>
               </Nav.Link>
               <Nav.Link className="navItems">
-                <Link to="/EventMain" className="navItemstyle" style={{color:'#fff'}}>
+                <Link to="/EventMain" className="navItemstyle">
                   {" "}
                   Events
                 </Link>
               </Nav.Link>
               <Nav.Link className="navItems">
                 {" "}
-                <Link to="/DAOMain" className="navItemstyle" style={{color:'#fff'}}>
+                <Link to="/DAOMain" className="navItemstyle">
                   {" "}
                   DAO
                 </Link>
               </Nav.Link>
-              <Nav.Link className="navItems">
-                <Link to="/BlogMain" className="navItemstyle" style={{color:'#fff'}}>
+              <Nav.Link to="" className="navItems">
+                <Link to="/BlogMain" className="navItemstyle">
                   {" "}
                   Blog
                 </Link>
               </Nav.Link>
-
-              {/* <NavDropdown title="Link" id="navbarScrollingDropdown">
-          <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-          <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-          <NavDropdown.Divider />
-          <NavDropdown.Item href="#action5">
-            Something else here
-          </NavDropdown.Item>
-        </NavDropdown> */}
             </Nav>
-            <Form className="d-flex">
-              <Link to='/DashboardOne' className="eventNavSignInbtn Navlinkstyle">SIGN IN</Link>
+            <Form className="d-flex justify-content-between">
+            <p className="pr-2"><span><GiDividedSquare style={{color:'red'}}/></span> 0 </p>
+            <p className="pr"><span><GiDividedSquare/></span> 0</p>
+            <Avatar
+                  alt="Remy Sharp"
+                  src="/static/images/avatar/1.jpg"
+                  sx={{ width: 25, height: 25,paddingRight:'5px '}}
+                />
+             
             </Form>
           </Navbar.Collapse>
         </Container>
       </Navbar>
+      <hr />
     </>
   );
 };
-export default BuilderNavbar;
+
+export default AccountNavbar;

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import { HiUpload } from "react-icons/hi";
-import cardpic from "assets/background.png";
+import cardpic from "../../assets/background.png";
 
 import "./BuilderStyle.css";
 

@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import DocsNavbar from "components/navBars/docsNavbar";
-import DocSidebar from "components/docs/sidebar";
-import HomeFooter from "components/footers/homeFooter";
+import DocsNavbar from "../../../../components/navBars/docsNavbar";
+import DocSidebar from "../../../../components/docs/sidebar";
+import HomeFooter from "../../../../components/footers/homeFooter";
 
-import "components/docs/docsPages/docPagesStyle.css";
+import "../../../../components/docs/docsPages/docPagesStyle.css";
 
 const WhitePaper = () => {
   return (

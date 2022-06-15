@@ -1,6 +1,6 @@
 import React from "react";
 
-import DocsNavbar from "components/navBars/docsNavbar";
+import DocsNavbar from "../../../components/navBars/docsNavbar";
 import HomeFooter from "../homeFooter";
 import MainFooterPages from "./MainFooterPages";
 

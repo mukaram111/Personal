@@ -1,4 +1,4 @@
-import DaoNavbar from "components/navBars/daoNavbar";
+import DaoNavbar from "../../../components/navBars/daoNavbar";
 import React from "react";
 import BrowsingLayout from "./BrowsingLayout";
 

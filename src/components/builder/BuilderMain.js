@@ -2,8 +2,8 @@ import React from "react";
 
 import BuilderSectionOne from "./BuilderSectionOne";
 import BuilderSectionTwo from "./BuilderSectionTwo";
-import HomeFooter from "components/footers/homeFooter";
-import BuilderNavbar from "components/navBars/builderNavbar";
+import HomeFooter from "../../components/footers/homeFooter";
+import BuilderNavbar from "../../components/navBars/builderNavbar";
 
 import "./builder.css";
 

@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import {FaGreaterThan} from 'react-icons/fa'
 
-import cardpic from "assets/background.png";
+import cardpic from "../../assets/background.png";
 
 const MarketPlaceSecTwo = () => {
   return (

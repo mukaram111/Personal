@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
-import NavImage from "assets/images/download.svg";
+import NavImage from "../../assets/images/download.svg";
 
 import logoGame from '../../assets/images/logoGame.png'
 import "./homeNavbar.css";

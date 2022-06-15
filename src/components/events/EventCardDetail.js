@@ -1,7 +1,7 @@
 import React from "react";
 
-import EventCardDetailNavbar from "components/navBars/eventCardDetailNavbar";
-import HomeFooter from "components/footers/homeFooter";
+import EventCardDetailNavbar from "../../components/navBars/eventCardDetailNavbar";
+import HomeFooter from "../../components/footers/homeFooter";
 
 import carsualPic1 from "../../assets/images/carsualPic (1).png";
 import cardBtnImg from "../../assets/images/cardBtnImg.svg";

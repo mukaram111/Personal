@@ -1,6 +1,6 @@
 import React from "react";
 
-import DocsNavbar from "components/navBars/docsNavbar";
+import DocsNavbar from "../../../components/navBars/docsNavbar";
 import MainFooterPages from "./MainFooterPages";
 
 import "./style.css";

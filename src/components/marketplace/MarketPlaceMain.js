@@ -1,12 +1,12 @@
 import React from "react";
 
-import BuilderNavbar from "components/navBars/builderNavbar";
+import BuilderNavbar from "../../components/navBars/builderNavbar";
 import MarketplaceSectionOne from "./marketplaceSectionOne";
 
 import "./marketplace.css";
 import MarketPlaceSecTwo from "./MarketPlaceSecTwo";
 // import MarketPlaceSecThree from "./MarketPlaceSecThree";
-import HomeFooter from "components/footers/homeFooter";
+import HomeFooter from "../../components/footers/homeFooter";
 
 const MarketPlaceMain = () => {
   return (
