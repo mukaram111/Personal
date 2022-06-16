@@ -10,7 +10,7 @@ const BuilderSectionOne = () => {
     <ul className='builderSectionOnelist'>
         <li><Link className='builderListItem'>Scenes</Link></li>
         <li><Link className='builderListItem'>Land</Link></li>
-        <li><Link className='builderListItem'>Names</Link></li>
+        <li><Link to='/Names' className='builderListItem'>Names</Link></li>
         <li><Link className='builderListItem'>Collection</Link></li>
     </ul>
 </div>

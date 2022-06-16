@@ -31,6 +31,8 @@ import WhitePaper from "../../components/docs/docsPages/World/WhitePaper";
 import HardwareAcceleration from "../../components/docs/docsPages/World/HardwareAcceleration";
 import DocsDAO from "../../components/docs/docsPages/World/DocsDAO";
 import DashBoardOne from "../../components/accounts/DashBoardOne";
+import Names from "../../components/builder/SubPages/Names";
+import NamesDetail from "../../components/builder/SubPages/NamesDetail";
 
 const HomeRoutes = () => {
   return (
@@ -75,7 +77,8 @@ const HomeRoutes = () => {
           <Route path="/DocsDAO" component={DocsDAO} />
           {/* -----------------------------------------DashBoard------------------------ */}
           <Route path="/DashBoardOne" component={DashBoardOne} />
-
+          <Route path="/Names" component={Names} />
+          <Route path="/NameDetail" component={NamesDetail} />
           <Redirect to="/" />
         </Switch>
       </Router>

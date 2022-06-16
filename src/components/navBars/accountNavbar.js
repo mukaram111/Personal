@@ -75,7 +75,7 @@ const AccountNavbar = () => {
                 </Link>
               </Nav.Link>
             </Nav>
-            <Form className="d-flex justify-content-between">
+            <Form className="d-flex ">
             <p className="pr-2"><span><GiDividedSquare style={{color:'red'}}/></span> 0 </p>
             <p className="pr"><span><GiDividedSquare/></span> 0</p>
             <Avatar
