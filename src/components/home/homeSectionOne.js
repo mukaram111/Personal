@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import bgVedio from "../../assets/Vedios/Background Vedio.mp4";
 import vedio from "../../assets/Vedios/home-section-One-bg.mp4";
 
 import "./home.css";
@@ -9,14 +10,9 @@ const HomeSectionOne = () => {
   return (
     <>
       <div className="SectionOneMain ">
-        <iframe
-          className="SectionOneVedio"
-          src={vedio}
-          title="vediod"
-          allow="autoplay"
-        >
-         
-        </iframe>
+        <video autoPlay loop muted className="SectionOneVedio">
+          <source src={bgVedio} type="video/mp4" />
+        </video>
 
         <div className="container" style={{ postion: "absolute" }}>
           <div className="row ">
