@@ -122,7 +122,7 @@ const BlogNavbar = () => {
 
             <NavDropdown
               title="Authors"
-              id="basic-nav-dropdown"
+              // id="basic-nav-dropdown"
               className="navtext"
             >
               <NavDropdown.Item href="#action/3.1">

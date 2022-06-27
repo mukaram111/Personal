@@ -100,10 +100,10 @@
   text-transform: uppercase;
   width: 235px;
   border: 0;
+  margin-top: 6px;
   font-family: font-family;
   outline: none;
   font-size: 16px;
-  line-height: 18px;
   min-width: 128px;
   padding: 13px 32px;
   border-radius: 6px;

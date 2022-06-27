@@ -26,6 +26,12 @@
 .sectionOneMainHeading {
   padding-top: 20%;
 }
+.removeStyle{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
 .mainHeadingSectionone {
   font-family: font-family;
   font-size: 64px;

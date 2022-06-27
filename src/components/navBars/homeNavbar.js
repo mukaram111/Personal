@@ -63,7 +63,7 @@ const HomeNavbar = () => {
                   className={
                     colorChange
                       ? "navItems itemColorChange"
-                      : " nav-link active navItems"
+                      : " nav-links active navItems"
                   }
                   aria-current="page"
                   to="/MarketPlaceMain"
@@ -76,7 +76,7 @@ const HomeNavbar = () => {
                   className={
                     colorChange
                       ? "navItems itemColorChange"
-                      : " nav-link active navItems"
+                      : " nav-links active navItems"
                   }
                   to="/BuilderMain"
                 >
@@ -88,7 +88,7 @@ const HomeNavbar = () => {
                   className={
                     colorChange
                       ? "navItems itemColorChange"
-                      : " nav-link active navItems"
+                      : " nav-links active navItems"
                   }
                   to="/DOCS"
                 >
@@ -100,7 +100,7 @@ const HomeNavbar = () => {
                   className={
                     colorChange
                       ? "navItems itemColorChange"
-                      : " nav-link active navItems"
+                      : " nav-links active navItems"
                   }
                   to="/EventMain"
                 >
@@ -112,7 +112,7 @@ const HomeNavbar = () => {
                   className={
                     colorChange
                       ? "navItems itemColorChange"
-                      : " nav-link active navItems"
+                      : " nav-links active navItems"
                   }
                   to="/DAOMain"
                 >
@@ -124,7 +124,7 @@ const HomeNavbar = () => {
                   className={
                     colorChange
                       ? "navItems itemColorChange"
-                      : " nav-link active navItems"
+                      : " nav-links active navItems"
                   }
                   to="/BlogMain"
                 >
@@ -134,12 +134,12 @@ const HomeNavbar = () => {
               </Nav.Link>
             </Nav>
             <Form className="d-flex responsive">
-              <span className="nav-item ">
+            &nbsp; <span className="nav-item pt-1 ">
                 <Link
                   className={
                     colorChange
                       ? "navItems itemColorChange spacing "
-                      : " nav-link active navItems"
+                      : " nav-links active navItems"
                   }
                   to=""
                 >
@@ -147,6 +147,7 @@ const HomeNavbar = () => {
                   Join Our Discord
                 </Link>
               </span>
+              &nbsp;
               <Link to="/startExploring">
                 <button
                   className={colorChange ? "navbtn navbtnChange" : "navbtn"}

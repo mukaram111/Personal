@@ -24,6 +24,7 @@
 }
 .navItems {
   color: #fff;
+  text-decoration: none;
   font-family: font-family;
   /* text-shadow: 0 0 0.2em rgb(0 0 0 / 50%); */
   font-size: 13px;
@@ -185,7 +186,7 @@ font-family: font-family;
   text-decoration: none;
   color: #000;
 }
-.nav-link {
+.nav-links {
   color: #fff !important;
 }
 .navtext a {
@@ -206,12 +207,12 @@ font-family: font-family;
   font-weight: 400;
   line-height: 18px;
 }
-.navBgColor {
-}
-.show {
+/* .navBgColor {
+} */
+/* .show { */
   /* background-color: gray; */
   /* border-radius: 10px; */
-}
+/* } */
 .toggleBtn {
   color: #fff !important;
 }

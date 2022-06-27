@@ -17,7 +17,7 @@ const HomeSectionOne = () => {
         <div className="container" style={{ postion: "absolute" }}>
           <div className="row ">
             <div className="sectionOneMainHeading">
-              <h1 className="mainHeadingSectionone">Welcome to Lorem</h1>
+              <h1 className="mainHeadingSectionone">Welcome to Our Game</h1>
             </div>
             <div className="col-md-6">
               <p className="subText">
@@ -27,13 +27,13 @@ const HomeSectionOne = () => {
             </div>
             <div style={{ zIndex: "1" }}>
               <button className="homeSectionOnebtn btnanimated">
-                <a
+                {/* <a
                   style={{ textDecoration: "none", color: "white" }}
                   href="https://rajaharris55.itch.io/nft-game"
                   alt="game Link"
-                >
-                <Link to='/Game'>  get started</Link>
-                </a>
+                > */}
+                <Link to='/Game' className="removeStyle">  get started</Link>
+                {/* </a> */}
               </button>
             </div>
           </div>
