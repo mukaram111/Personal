@@ -32,7 +32,7 @@ const HomeSectionOne = () => {
                   href="https://rajaharris55.itch.io/nft-game"
                   alt="game Link"
                 >
-                  get started
+                <Link to='/Game'>  get started</Link>
                 </a>
               </button>
             </div>

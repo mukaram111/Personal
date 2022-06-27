@@ -1,3 +1,5 @@
+@import '../../sharedComponents/FontFamily.scss';
+
 .colorWhite {
   color: #fff;
 }
@@ -22,6 +24,7 @@
 }
 .navItems {
   color: #fff;
+  font-family: font-family;
   /* text-shadow: 0 0 0.2em rgb(0 0 0 / 50%); */
   font-size: 13px;
   cursor: pointer;
@@ -44,6 +47,7 @@
   color: #ffff;
   outline: none;
   height: 35px;
+  font-family: font-family;
   border: 0;
   font-size: 13px;
   border-radius: 5px;
@@ -64,6 +68,7 @@
   cursor: pointer;
   border: 0;
   height: 40px;
+  font-family: font-family;
 }
 .SEnavbtn:hover {
   background-color: rgba(116, 113, 113, 0.1);
@@ -87,13 +92,14 @@
 .dropdownIcon {
   color: #fff;
   font-size: 55px;
+
 }
 .dropdownIcon.colorChange {
   color: #000;
 }
 .navItems.itemColorChange {
   color: #000;
-
+font-family: font-family;
   font-size: 13px;
   cursor: pointer;
   font-weight: 500;
@@ -113,7 +119,7 @@
 }
 .navbtn.navbtnChange {
   outline: none;
-
+  font-family: font-family;
   border: 0;
   font-size: 13px;
   border-radius: 5px;
@@ -130,6 +136,7 @@
   padding: 8px;
   border-radius: 5px;
   text-transform: uppercase;
+  font-family: font-family;
   font-size: 13px;
   color: #ff2d55;
   background-color: #fff;
@@ -167,6 +174,7 @@
 .navtext {
   cursor: pointer;
   font-size: 17px;
+  font-family: font-family;
   color: #16141a;
   text-decoration: none;
   font-weight: 400;
@@ -201,8 +209,8 @@
 .navBgColor {
 }
 .show {
-  background-color: gray;
-  border-radius: 10px;
+  /* background-color: gray; */
+  /* border-radius: 10px; */
 }
 .toggleBtn {
   color: #fff !important;
