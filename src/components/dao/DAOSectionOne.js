@@ -24,11 +24,11 @@ const DAOSectionOne = () => {
             {/* ---------------------------------------------------------------------------------------------------------- */}
           </div>
           <div className=" text-center">
-            <button className=" btnstylish sectionOneDAObtn btnanimated">
+          &nbsp; &nbsp;  <button className=" btnstylish sectionOneDAObtn btnanimated">
               Start Voting
             </button>
             &nbsp; &nbsp;
-            <button className="sectionOneDAObtn ml-2 btnanimated">
+            <button className="sectionOneDAObtn  btnanimated">
               Learn More
             </button>
           </div>

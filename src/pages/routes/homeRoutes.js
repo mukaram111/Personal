@@ -33,6 +33,7 @@ import DocsDAO from "../../components/docs/docsPages/World/DocsDAO";
 import DashBoardOne from "../../components/accounts/DashBoardOne";
 import Names from "../../components/builder/SubPages/Names";
 import NamesDetail from "../../components/builder/SubPages/NamesDetail";
+import Game from "../../Game";
 
 const HomeRoutes = () => {
   return (
@@ -79,6 +80,9 @@ const HomeRoutes = () => {
           <Route path="/DashBoardOne" component={DashBoardOne} />
           <Route path="/Names" component={Names} />
           <Route path="/NameDetail" component={NamesDetail} />
+
+          <Route path='/Game' component={Game}/>
+
           <Redirect to="/" />
         </Switch>
       </Router>
